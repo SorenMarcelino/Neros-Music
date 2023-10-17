@@ -11,6 +11,367 @@
 		B325614C2AD2E6A2002733DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B325614B2AD2E6A2002733DE /* ContentView.swift */; };
 		B325614E2AD2E6A3002733DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B325614D2AD2E6A3002733DE /* Assets.xcassets */; };
 		B32561512AD2E6A3002733DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32561502AD2E6A3002733DE /* Preview Assets.xcassets */; };
+		B3C301A52ADEF98E00B71318 /* skull_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300232ADEF98E00B71318 /* skull_head_SPECROUGHLW.heic */; };
+		B3C301A62ADEF98E00B71318 /* skull_nose_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300242ADEF98E00B71318 /* skull_nose_SPECROUGHLW.heic */; };
+		B3C301A72ADEF98E00B71318 /* skull-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300252ADEF98E00B71318 /* skull-cameraGrid.atx */; };
+		B3C301A82ADEF98E00B71318 /* skull-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300262ADEF98E00B71318 /* skull-cameras.scn */; };
+		B3C301A92ADEF98E00B71318 /* skull_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300272ADEF98E00B71318 /* skull_head_ONTOP.heic */; };
+		B3C301AA2ADEF98E00B71318 /* skull-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300282ADEF98E00B71318 /* skull-camera.atx */; };
+		B3C301AB2ADEF98E00B71318 /* skull_jawInsert_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300292ADEF98E00B71318 /* skull_jawInsert_DIFFUSE.heic */; };
+		B3C301AC2ADEF98E00B71318 /* skull_jawInsert_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002A2ADEF98E00B71318 /* skull_jawInsert_SPECROUGHLW.heic */; };
+		B3C301AD2ADEF98E00B71318 /* skull_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002B2ADEF98E00B71318 /* skull_tongue_SPECROUGHLW.heic */; };
+		B3C301AE2ADEF98E00B71318 /* skull_tongue_TRANSPARENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002C2ADEF98E00B71318 /* skull_tongue_TRANSPARENT.heic */; };
+		B3C301AF2ADEF98E00B71318 /* skull_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002D2ADEF98E00B71318 /* skull_head_AO.heic */; };
+		B3C301B02ADEF98E00B71318 /* skull_mouthbag_TRANSPARENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002E2ADEF98E00B71318 /* skull_mouthbag_TRANSPARENT.heic */; };
+		B3C301B12ADEF98E00B71318 /* skull_tongue_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3002F2ADEF98E00B71318 /* skull_tongue_DIFFUSE.heic */; };
+		B3C301B22ADEF98E00B71318 /* skull.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300302ADEF98E00B71318 /* skull.scnz */; };
+		B3C301B32ADEF98E00B71318 /* skull_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300312ADEF98E00B71318 /* skull_head_DIFFUSE.heic */; };
+		B3C301B42ADEF98E00B71318 /* cat.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300332ADEF98E00B71318 /* cat.scnz */; };
+		B3C301B52ADEF98E00B71318 /* cat-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300342ADEF98E00B71318 /* cat-camera.atx */; };
+		B3C301B62ADEF98E00B71318 /* cat_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300352ADEF98E00B71318 /* cat_mouth_DIFFUSE.heic */; };
+		B3C301B72ADEF98E00B71318 /* cat_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300362ADEF98E00B71318 /* cat_head_SPECROUGHLW.heic */; };
+		B3C301B82ADEF98E00B71318 /* cat_whiskers_MASK.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300372ADEF98E00B71318 /* cat_whiskers_MASK.heic */; };
+		B3C301B92ADEF98E00B71318 /* cat-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300382ADEF98E00B71318 /* cat-cameras.scn */; };
+		B3C301BA2ADEF98E00B71318 /* cat-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300392ADEF98E00B71318 /* cat-cameraGrid.atx */; };
+		B3C301BB2ADEF98E00B71318 /* cat_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3003A2ADEF98E00B71318 /* cat_head_ONTOP.heic */; };
+		B3C301BC2ADEF98E00B71318 /* cat_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3003B2ADEF98E00B71318 /* cat_mouth_AO.heic */; };
+		B3C301BD2ADEF98E00B71318 /* cat_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3003C2ADEF98E00B71318 /* cat_head_AMBIENT.heic */; };
+		B3C301BE2ADEF98E00B71318 /* cat_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3003D2ADEF98E00B71318 /* cat_head_AO.heic */; };
+		B3C301BF2ADEF98E00B71318 /* cat_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3003E2ADEF98E00B71318 /* cat_head_DIFFUSE.heic */; };
+		B3C301C02ADEF98E00B71318 /* trex.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300402ADEF98E00B71318 /* trex.scnz */; };
+		B3C301C12ADEF98E00B71318 /* trex_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300412ADEF98E00B71318 /* trex_tongue_SPECROUGHLW.heic */; };
+		B3C301C22ADEF98E00B71318 /* trex_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300422ADEF98E00B71318 /* trex_head_AO.heic */; };
+		B3C301C32ADEF98E00B71318 /* trex_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300432ADEF98E00B71318 /* trex_mouth_DIFFUSE.heic */; };
+		B3C301C42ADEF98E00B71318 /* trex-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300442ADEF98E00B71318 /* trex-cameraGrid.atx */; };
+		B3C301C52ADEF98E00B71318 /* trex_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300452ADEF98E00B71318 /* trex_mouth_AO.heic */; };
+		B3C301C62ADEF98E00B71318 /* trex_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300462ADEF98E00B71318 /* trex_head_ONTOP.heic */; };
+		B3C301C72ADEF98E00B71318 /* trex_head_REFLECTIVE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300472ADEF98E00B71318 /* trex_head_REFLECTIVE.heic */; };
+		B3C301C82ADEF98E00B71318 /* trex_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300482ADEF98E00B71318 /* trex_head_AMBIENT.heic */; };
+		B3C301C92ADEF98E00B71318 /* trex-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300492ADEF98E00B71318 /* trex-camera.atx */; };
+		B3C301CA2ADEF98E00B71318 /* trex_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3004A2ADEF98E00B71318 /* trex_head_SPECROUGHLW.heic */; };
+		B3C301CB2ADEF98E00B71318 /* trex-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3004B2ADEF98E00B71318 /* trex-cameras.scn */; };
+		B3C301CC2ADEF98E00B71318 /* trex_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3004C2ADEF98E00B71318 /* trex_head_DIFFUSE.heic */; };
+		B3C301CD2ADEF98E00B71318 /* pig_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3004E2ADEF98E00B71318 /* pig_mouth_DIFFUSE.heic */; };
+		B3C301CE2ADEF98E00B71318 /* pig_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3004F2ADEF98E00B71318 /* pig_mouth_AO.heic */; };
+		B3C301CF2ADEF98E00B71318 /* pig_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300502ADEF98E00B71318 /* pig_head_AMBIENT.heic */; };
+		B3C301D02ADEF98E00B71318 /* pig_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300512ADEF98E00B71318 /* pig_head_DIFFUSE.heic */; };
+		B3C301D12ADEF98E00B71318 /* pig.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300522ADEF98E00B71318 /* pig.scnz */; };
+		B3C301D22ADEF98E00B71318 /* pig-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300532ADEF98E00B71318 /* pig-cameraGrid.atx */; };
+		B3C301D32ADEF98E00B71318 /* pig_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300542ADEF98E00B71318 /* pig_head_ONTOP.heic */; };
+		B3C301D42ADEF98E00B71318 /* pig_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300552ADEF98E00B71318 /* pig_tongue_SPECROUGHLW.heic */; };
+		B3C301D52ADEF98E00B71318 /* pig-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300562ADEF98E00B71318 /* pig-camera.atx */; };
+		B3C301D62ADEF98E00B71318 /* pig-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300572ADEF98E00B71318 /* pig-cameras.scn */; };
+		B3C301D72ADEF98E00B71318 /* pig_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300582ADEF98E00B71318 /* pig_head_AO.heic */; };
+		B3C301D82ADEF98E00B71318 /* pig_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300592ADEF98E00B71318 /* pig_head_SPECROUGHLW.heic */; };
+		B3C301D92ADEF98E00B71318 /* dog-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3005B2ADEF98E00B71318 /* dog-cameras.scn */; };
+		B3C301DA2ADEF98E00B71318 /* dog_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3005C2ADEF98E00B71318 /* dog_head_AMBIENT.heic */; };
+		B3C301DB2ADEF98E00B71318 /* dog_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3005D2ADEF98E00B71318 /* dog_head_SPECROUGHLW.heic */; };
+		B3C301DC2ADEF98E00B71318 /* dog_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3005E2ADEF98E00B71318 /* dog_mouth_DIFFUSE.heic */; };
+		B3C301DD2ADEF98E00B71318 /* dog_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3005F2ADEF98E00B71318 /* dog_head_DIFFUSE.heic */; };
+		B3C301DE2ADEF98E00B71318 /* dog.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300602ADEF98E00B71318 /* dog.scnz */; };
+		B3C301DF2ADEF98E00B71318 /* dog_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300612ADEF98E00B71318 /* dog_tongue_SPECROUGHLW.heic */; };
+		B3C301E02ADEF98E00B71318 /* dog_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300622ADEF98E00B71318 /* dog_head_ONTOP.heic */; };
+		B3C301E12ADEF98E00B71318 /* dog-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300632ADEF98E00B71318 /* dog-camera.atx */; };
+		B3C301E22ADEF98E00B71318 /* dog_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300642ADEF98E00B71318 /* dog_head_AO.heic */; };
+		B3C301E32ADEF98E00B71318 /* dog_tongue_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300652ADEF98E00B71318 /* dog_tongue_AO.heic */; };
+		B3C301E42ADEF98E00B71318 /* dog-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300662ADEF98E00B71318 /* dog-cameraGrid.atx */; };
+		B3C301E52ADEF98E00B71318 /* fox_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300682ADEF98E00B71318 /* fox_head_DIFFUSE.heic */; };
+		B3C301E62ADEF98E00B71318 /* fox_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300692ADEF98E00B71318 /* fox_head_ONTOP.heic */; };
+		B3C301E72ADEF98E00B71318 /* fox_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006A2ADEF98E00B71318 /* fox_head_AMBIENT.heic */; };
+		B3C301E82ADEF98E00B71318 /* fox.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006B2ADEF98E00B71318 /* fox.scnz */; };
+		B3C301E92ADEF98E00B71318 /* fox-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006C2ADEF98E00B71318 /* fox-camera.atx */; };
+		B3C301EA2ADEF98E00B71318 /* fox_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006D2ADEF98E00B71318 /* fox_head_AO.heic */; };
+		B3C301EB2ADEF98E00B71318 /* fox_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006E2ADEF98E00B71318 /* fox_mouth_AO.heic */; };
+		B3C301EC2ADEF98E00B71318 /* fox_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3006F2ADEF98E00B71318 /* fox_head_SPECROUGHLW.heic */; };
+		B3C301ED2ADEF98E00B71318 /* fox_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300702ADEF98E00B71318 /* fox_mouth_DIFFUSE.heic */; };
+		B3C301EE2ADEF98E00B71318 /* fox-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300712ADEF98E00B71318 /* fox-cameras.scn */; };
+		B3C301EF2ADEF98E00B71318 /* fox-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300722ADEF98E00B71318 /* fox-cameraGrid.atx */; };
+		B3C301F02ADEF98E00B71318 /* boar_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300742ADEF98E00B71318 /* boar_head_AMBIENT.heic */; };
+		B3C301F12ADEF98E00B71318 /* boar_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300752ADEF98E00B71318 /* boar_head_DIFFUSE.heic */; };
+		B3C301F22ADEF98E00B71318 /* boar_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300762ADEF98E00B71318 /* boar_head_AO.heic */; };
+		B3C301F32ADEF98E00B71318 /* boar_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300772ADEF98E00B71318 /* boar_head_ONTOP.heic */; };
+		B3C301F42ADEF98E00B71318 /* boar-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300782ADEF98E00B71318 /* boar-cameras.scn */; };
+		B3C301F52ADEF98E00B71318 /* boar_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300792ADEF98E00B71318 /* boar_head_SPECROUGHLW.heic */; };
+		B3C301F62ADEF98E00B71318 /* boar_mouth_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007A2ADEF98E00B71318 /* boar_mouth_AMBIENT.heic */; };
+		B3C301F72ADEF98E00B71318 /* boar_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007B2ADEF98E00B71318 /* boar_mouth_DIFFUSE.heic */; };
+		B3C301F82ADEF98E00B71318 /* boar_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007C2ADEF98E00B71318 /* boar_mouth_SPECROUGHLW.heic */; };
+		B3C301F92ADEF98E00B71318 /* boar_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007D2ADEF98E00B71318 /* boar_mouth_AO.heic */; };
+		B3C301FA2ADEF98E00B71318 /* boar.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007E2ADEF98E00B71318 /* boar.scnz */; };
+		B3C301FB2ADEF98E00B71318 /* boar-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3007F2ADEF98E00B71318 /* boar-camera.atx */; };
+		B3C301FC2ADEF98E00B71318 /* boar-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300802ADEF98E00B71318 /* boar-cameraGrid.atx */; };
+		B3C301FD2ADEF98E00B71318 /* giraffe_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300822ADEF98E00B71318 /* giraffe_head_ONTOP.heic */; };
+		B3C301FE2ADEF98E00B71318 /* giraffe_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300832ADEF98E00B71318 /* giraffe_head_AMBIENT.heic */; };
+		B3C301FF2ADEF98E00B71318 /* giraffe_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300842ADEF98E00B71318 /* giraffe_head_DIFFUSE.heic */; };
+		B3C302002ADEF98E00B71318 /* giraffe-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300852ADEF98E00B71318 /* giraffe-cameraGrid.atx */; };
+		B3C302012ADEF98E00B71318 /* giraffe_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300862ADEF98E00B71318 /* giraffe_mouth_AO.heic */; };
+		B3C302022ADEF98E00B71318 /* giraffe-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300872ADEF98E00B71318 /* giraffe-cameras.scn */; };
+		B3C302032ADEF98E00B71318 /* giraffe_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300882ADEF98E00B71318 /* giraffe_head_SPECROUGHLW.heic */; };
+		B3C302042ADEF98E00B71318 /* giraffe_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300892ADEF98E00B71318 /* giraffe_head_AO.heic */; };
+		B3C302052ADEF98E00B71318 /* giraffe_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3008A2ADEF98E00B71318 /* giraffe_mouth_SPECROUGHLW.heic */; };
+		B3C302062ADEF98E00B71318 /* giraffe.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3008B2ADEF98E00B71318 /* giraffe.scnz */; };
+		B3C302072ADEF98E00B71318 /* giraffe-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3008C2ADEF98E00B71318 /* giraffe-camera.atx */; };
+		B3C302082ADEF98E00B71318 /* giraffe_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3008D2ADEF98E00B71318 /* giraffe_mouth_DIFFUSE.heic */; };
+		B3C302092ADEF98E00B71318 /* bear-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3008F2ADEF98E00B71318 /* bear-cameras.scn */; };
+		B3C3020A2ADEF98F00B71318 /* bear_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300902ADEF98E00B71318 /* bear_mouth_AO.heic */; };
+		B3C3020B2ADEF98F00B71318 /* bear_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300912ADEF98E00B71318 /* bear_head_AO.heic */; };
+		B3C3020C2ADEF98F00B71318 /* bear_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300922ADEF98E00B71318 /* bear_head_AMBIENT.heic */; };
+		B3C3020D2ADEF98F00B71318 /* bear_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300932ADEF98E00B71318 /* bear_head_DIFFUSE.heic */; };
+		B3C3020E2ADEF98F00B71318 /* bear.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300942ADEF98E00B71318 /* bear.scnz */; };
+		B3C3020F2ADEF98F00B71318 /* bear-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300952ADEF98E00B71318 /* bear-camera.atx */; };
+		B3C302102ADEF98F00B71318 /* bear-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300962ADEF98E00B71318 /* bear-cameraGrid.atx */; };
+		B3C302112ADEF98F00B71318 /* bear_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300972ADEF98E00B71318 /* bear_head_ONTOP.heic */; };
+		B3C302122ADEF98F00B71318 /* bear_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300982ADEF98E00B71318 /* bear_mouth_DIFFUSE.heic */; };
+		B3C302132ADEF98F00B71318 /* bear_head_SPECCOLOUR.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300992ADEF98E00B71318 /* bear_head_SPECCOLOUR.heic */; };
+		B3C302142ADEF98F00B71318 /* bear_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3009A2ADEF98E00B71318 /* bear_head_SPECROUGHLW.heic */; };
+		B3C302152ADEF98F00B71318 /* panda-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3009C2ADEF98E00B71318 /* panda-camera.atx */; };
+		B3C302162ADEF98F00B71318 /* panda.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3009D2ADEF98E00B71318 /* panda.scnz */; };
+		B3C302172ADEF98F00B71318 /* panda_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3009E2ADEF98E00B71318 /* panda_head_SPECROUGHLW.heic */; };
+		B3C302182ADEF98F00B71318 /* panda_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3009F2ADEF98E00B71318 /* panda_head_DIFFUSE.heic */; };
+		B3C302192ADEF98F00B71318 /* panda-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A02ADEF98E00B71318 /* panda-cameras.scn */; };
+		B3C3021A2ADEF98F00B71318 /* panda_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A12ADEF98E00B71318 /* panda_head_AMBIENT.heic */; };
+		B3C3021B2ADEF98F00B71318 /* panda_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A22ADEF98E00B71318 /* panda_mouth_AO.heic */; };
+		B3C3021C2ADEF98F00B71318 /* panda_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A32ADEF98E00B71318 /* panda_tongue_SPECROUGHLW.heic */; };
+		B3C3021D2ADEF98F00B71318 /* panda_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A42ADEF98E00B71318 /* panda_mouth_DIFFUSE.heic */; };
+		B3C3021E2ADEF98F00B71318 /* panda-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A52ADEF98E00B71318 /* panda-cameraGrid.atx */; };
+		B3C3021F2ADEF98F00B71318 /* panda_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A62ADEF98E00B71318 /* panda_head_AO.heic */; };
+		B3C302202ADEF98F00B71318 /* panda_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A72ADEF98E00B71318 /* panda_head_ONTOP.heic */; };
+		B3C302212ADEF98F00B71318 /* owl_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300A92ADEF98E00B71318 /* owl_head_DIFFUSE.heic */; };
+		B3C302222ADEF98F00B71318 /* owl_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AA2ADEF98E00B71318 /* owl_head_AMBIENT.heic */; };
+		B3C302232ADEF98F00B71318 /* owl_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AB2ADEF98E00B71318 /* owl_head_SPECROUGHLW.heic */; };
+		B3C302242ADEF98F00B71318 /* owl_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AC2ADEF98E00B71318 /* owl_mouth_DIFFUSE.heic */; };
+		B3C302252ADEF98F00B71318 /* owl-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AD2ADEF98E00B71318 /* owl-cameras.scn */; };
+		B3C302262ADEF98F00B71318 /* owl-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AE2ADEF98E00B71318 /* owl-cameraGrid.atx */; };
+		B3C302272ADEF98F00B71318 /* owl_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300AF2ADEF98E00B71318 /* owl_head_ONTOP.heic */; };
+		B3C302282ADEF98F00B71318 /* owl_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B02ADEF98E00B71318 /* owl_head_AO.heic */; };
+		B3C302292ADEF98F00B71318 /* owl-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B12ADEF98E00B71318 /* owl-camera.atx */; };
+		B3C3022A2ADEF98F00B71318 /* owl_eyes_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B22ADEF98E00B71318 /* owl_eyes_DIFFUSE.heic */; };
+		B3C3022B2ADEF98F00B71318 /* owl_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B32ADEF98E00B71318 /* owl_mouth_AO.heic */; };
+		B3C3022C2ADEF98F00B71318 /* owl.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B42ADEF98E00B71318 /* owl.scnz */; };
+		B3C3022D2ADEF98F00B71318 /* owl_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B52ADEF98E00B71318 /* owl_mouth_SPECROUGHLW.heic */; };
+		B3C3022E2ADEF98F00B71318 /* tiger_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B72ADEF98E00B71318 /* tiger_head_DIFFUSE.heic */; };
+		B3C3022F2ADEF98F00B71318 /* tiger_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B82ADEF98E00B71318 /* tiger_head_AMBIENT.heic */; };
+		B3C302302ADEF98F00B71318 /* tiger-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300B92ADEF98E00B71318 /* tiger-cameras.scn */; };
+		B3C302312ADEF98F00B71318 /* tiger_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BA2ADEF98E00B71318 /* tiger_head_SPECROUGHLW.heic */; };
+		B3C302322ADEF98F00B71318 /* tiger_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BB2ADEF98E00B71318 /* tiger_head_AO.heic */; };
+		B3C302332ADEF98F00B71318 /* tiger.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BC2ADEF98E00B71318 /* tiger.scnz */; };
+		B3C302342ADEF98F00B71318 /* tiger_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BD2ADEF98E00B71318 /* tiger_head_ONTOP.heic */; };
+		B3C302352ADEF98F00B71318 /* tiger-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BE2ADEF98E00B71318 /* tiger-cameraGrid.atx */; };
+		B3C302362ADEF98F00B71318 /* tiger_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300BF2ADEF98E00B71318 /* tiger_mouth_DIFFUSE.heic */; };
+		B3C302372ADEF98F00B71318 /* tiger-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C02ADEF98E00B71318 /* tiger-camera.atx */; };
+		B3C302382ADEF98F00B71318 /* tiger_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C12ADEF98E00B71318 /* tiger_mouth_AO.heic */; };
+		B3C302392ADEF98F00B71318 /* mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C32ADEF98E00B71318 /* mouth_AO.heic */; };
+		B3C3023A2ADEF98F00B71318 /* white.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C42ADEF98E00B71318 /* white.heic */; };
+		B3C3023B2ADEF98F00B71318 /* mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C52ADEF98E00B71318 /* mouth_DIFFUSE.heic */; };
+		B3C3023C2ADEF98F00B71318 /* eye_uvs_REFLECTIVE_occlusion.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C62ADEF98E00B71318 /* eye_uvs_REFLECTIVE_occlusion.heic */; };
+		B3C3023D2ADEF98F00B71318 /* tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C72ADEF98E00B71318 /* tongue_SPECROUGHLW.heic */; };
+		B3C3023E2ADEF98F00B71318 /* eye_uvs_REFLECTIVE_front.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C82ADEF98E00B71318 /* eye_uvs_REFLECTIVE_front.heic */; };
+		B3C3023F2ADEF98F00B71318 /* black.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300C92ADEF98E00B71318 /* black.heic */; };
+		B3C302402ADEF98F00B71318 /* eye_uvs_REFLECTIVE_back.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300CA2ADEF98E00B71318 /* eye_uvs_REFLECTIVE_back.heic */; };
+		B3C302412ADEF98F00B71318 /* alien.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300CC2ADEF98E00B71318 /* alien.scnz */; };
+		B3C302422ADEF98F00B71318 /* alien-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300CD2ADEF98E00B71318 /* alien-camera.atx */; };
+		B3C302432ADEF98F00B71318 /* alien_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300CE2ADEF98E00B71318 /* alien_head_AO.heic */; };
+		B3C302442ADEF98F00B71318 /* alien-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300CF2ADEF98E00B71318 /* alien-cameras.scn */; };
+		B3C302452ADEF98F00B71318 /* alien_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D02ADEF98E00B71318 /* alien_head_DIFFUSE.heic */; };
+		B3C302462ADEF98F00B71318 /* alien_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D12ADEF98E00B71318 /* alien_head_SPECROUGHLW.heic */; };
+		B3C302472ADEF98F00B71318 /* alien-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D22ADEF98E00B71318 /* alien-cameraGrid.atx */; };
+		B3C302482ADEF98F00B71318 /* alien_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D32ADEF98E00B71318 /* alien_head_ONTOP.heic */; };
+		B3C302492ADEF98F00B71318 /* robot_eyeShadow_RAMP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D52ADEF98E00B71318 /* robot_eyeShadow_RAMP.heic */; };
+		B3C3024A2ADEF98F00B71318 /* robot-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D62ADEF98E00B71318 /* robot-cameraGrid.atx */; };
+		B3C3024B2ADEF98F00B71318 /* robot_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D72ADEF98E00B71318 /* robot_head_ONTOP.heic */; };
+		B3C3024C2ADEF98F00B71318 /* robot_noseShadow_RAMP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D82ADEF98E00B71318 /* robot_noseShadow_RAMP.heic */; };
+		B3C3024D2ADEF98F00B71318 /* robot_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300D92ADEF98E00B71318 /* robot_head_DIFFUSE.heic */; };
+		B3C3024E2ADEF98F00B71318 /* robot-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DA2ADEF98E00B71318 /* robot-camera.atx */; };
+		B3C3024F2ADEF98F00B71318 /* robot_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DB2ADEF98E00B71318 /* robot_head_AMBIENT.heic */; };
+		B3C302502ADEF98F00B71318 /* robot_tongue_REFLECTION.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DC2ADEF98E00B71318 /* robot_tongue_REFLECTION.heic */; };
+		B3C302512ADEF98F00B71318 /* robot_tongue_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DD2ADEF98E00B71318 /* robot_tongue_DIFFUSE.heic */; };
+		B3C302522ADEF98F00B71318 /* robot_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DE2ADEF98E00B71318 /* robot_head_AO.heic */; };
+		B3C302532ADEF98F00B71318 /* robot_head_RAMP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300DF2ADEF98E00B71318 /* robot_head_RAMP.heic */; };
+		B3C302542ADEF98F00B71318 /* robot_red.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E02ADEF98E00B71318 /* robot_red.heic */; };
+		B3C302552ADEF98F00B71318 /* robot_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E12ADEF98E00B71318 /* robot_head_SPECROUGHLW.heic */; };
+		B3C302562ADEF98F00B71318 /* robot_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E22ADEF98E00B71318 /* robot_tongue_SPECROUGHLW.heic */; };
+		B3C302572ADEF98F00B71318 /* robot_bulb_REFLECTION.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E32ADEF98E00B71318 /* robot_bulb_REFLECTION.heic */; };
+		B3C302582ADEF98F00B71318 /* robot.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E42ADEF98E00B71318 /* robot.scnz */; };
+		B3C302592ADEF98F00B71318 /* robot-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E52ADEF98E00B71318 /* robot-cameras.scn */; };
+		B3C3025A2ADEF98F00B71318 /* ghost_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E72ADEF98E00B71318 /* ghost_mouth_AO.heic */; };
+		B3C3025B2ADEF98F00B71318 /* ghost-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E82ADEF98E00B71318 /* ghost-cameraGrid.atx */; };
+		B3C3025C2ADEF98F00B71318 /* ghost-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300E92ADEF98E00B71318 /* ghost-cameras.scn */; };
+		B3C3025D2ADEF98F00B71318 /* ghost_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300EA2ADEF98E00B71318 /* ghost_mouth_DIFFUSE.heic */; };
+		B3C3025E2ADEF98F00B71318 /* ghost_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300EB2ADEF98E00B71318 /* ghost_head_AMBIENT.heic */; };
+		B3C3025F2ADEF98F00B71318 /* ghost_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300EC2ADEF98E00B71318 /* ghost_head_ONTOP.heic */; };
+		B3C302602ADEF98F00B71318 /* ghost-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300ED2ADEF98E00B71318 /* ghost-camera.atx */; };
+		B3C302612ADEF98F00B71318 /* ghost_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300EE2ADEF98E00B71318 /* ghost_head_DIFFUSE.heic */; };
+		B3C302622ADEF98F00B71318 /* ghost.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300EF2ADEF98E00B71318 /* ghost.scnz */; };
+		B3C302632ADEF98F00B71318 /* ghost_mouth_SPECULAR.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F02ADEF98E00B71318 /* ghost_mouth_SPECULAR.heic */; };
+		B3C302642ADEF98F00B71318 /* ghost_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F12ADEF98E00B71318 /* ghost_head_SPECROUGHLW.heic */; };
+		B3C302652ADEF98F00B71318 /* mouse_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F32ADEF98E00B71318 /* mouse_head_SPECROUGHLW.heic */; };
+		B3C302662ADEF98F00B71318 /* mouse_whiskers_MASK.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F42ADEF98E00B71318 /* mouse_whiskers_MASK.heic */; };
+		B3C302672ADEF98F00B71318 /* mouse_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F52ADEF98E00B71318 /* mouse_mouth_SPECROUGHLW.heic */; };
+		B3C302682ADEF98F00B71318 /* mouse-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F62ADEF98E00B71318 /* mouse-cameraGrid.atx */; };
+		B3C302692ADEF98F00B71318 /* mouse_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F72ADEF98E00B71318 /* mouse_mouth_AO.heic */; };
+		B3C3026A2ADEF98F00B71318 /* mouse-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F82ADEF98E00B71318 /* mouse-camera.atx */; };
+		B3C3026B2ADEF98F00B71318 /* mouse_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300F92ADEF98E00B71318 /* mouse_mouth_DIFFUSE.heic */; };
+		B3C3026C2ADEF98F00B71318 /* mouse.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FA2ADEF98E00B71318 /* mouse.scnz */; };
+		B3C3026D2ADEF98F00B71318 /* mouse_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FB2ADEF98E00B71318 /* mouse_head_AO.heic */; };
+		B3C3026E2ADEF98F00B71318 /* mouse_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FC2ADEF98E00B71318 /* mouse_head_AMBIENT.heic */; };
+		B3C3026F2ADEF98F00B71318 /* mouse_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FD2ADEF98E00B71318 /* mouse_head_ONTOP.heic */; };
+		B3C302702ADEF98F00B71318 /* mouse_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FE2ADEF98E00B71318 /* mouse_head_DIFFUSE.heic */; };
+		B3C302712ADEF98F00B71318 /* mouse-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C300FF2ADEF98E00B71318 /* mouse-cameras.scn */; };
+		B3C302722ADEF98F00B71318 /* poo_tongue_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301012ADEF98E00B71318 /* poo_tongue_DIFFUSE.heic */; };
+		B3C302732ADEF98F00B71318 /* poo_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301022ADEF98E00B71318 /* poo_tongue_SPECROUGHLW.heic */; };
+		B3C302742ADEF98F00B71318 /* poo_tongue_TRANSPARENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301032ADEF98E00B71318 /* poo_tongue_TRANSPARENT.heic */; };
+		B3C302752ADEF98F00B71318 /* poo_body_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301042ADEF98E00B71318 /* poo_body_DIFFUSE.heic */; };
+		B3C302762ADEF98F00B71318 /* poo_body_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301052ADEF98E00B71318 /* poo_body_AO.heic */; };
+		B3C302772ADEF98F00B71318 /* poo-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301062ADEF98E00B71318 /* poo-cameras.scn */; };
+		B3C302782ADEF98F00B71318 /* poo_body_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301072ADEF98E00B71318 /* poo_body_AMBIENT.heic */; };
+		B3C302792ADEF98F00B71318 /* poo_eye_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301082ADEF98E00B71318 /* poo_eye_DIFFUSE.heic */; };
+		B3C3027A2ADEF98F00B71318 /* poo-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301092ADEF98E00B71318 /* poo-camera.atx */; };
+		B3C3027B2ADEF98F00B71318 /* poo.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3010A2ADEF98E00B71318 /* poo.scnz */; };
+		B3C3027C2ADEF98F00B71318 /* poo_body_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3010B2ADEF98E00B71318 /* poo_body_SPECROUGHLW.heic */; };
+		B3C3027D2ADEF98F00B71318 /* poo-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3010C2ADEF98E00B71318 /* poo-cameraGrid.atx */; };
+		B3C3027E2ADEF98F00B71318 /* poo_body_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3010D2ADEF98E00B71318 /* poo_body_ONTOP.heic */; };
+		B3C3027F2ADEF98F00B71318 /* dragon_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3010F2ADEF98E00B71318 /* dragon_mouth_DIFFUSE.heic */; };
+		B3C302802ADEF98F00B71318 /* dragon_eye_REFLECTIVE_front.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301102ADEF98E00B71318 /* dragon_eye_REFLECTIVE_front.heic */; };
+		B3C302812ADEF98F00B71318 /* dragon_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301112ADEF98E00B71318 /* dragon_head_ONTOP.heic */; };
+		B3C302822ADEF98F00B71318 /* dragon_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301122ADEF98E00B71318 /* dragon_head_SPECROUGHLW.heic */; };
+		B3C302832ADEF98F00B71318 /* dragon_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301132ADEF98E00B71318 /* dragon_mouth_AO.heic */; };
+		B3C302842ADEF98F00B71318 /* dragon_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301142ADEF98E00B71318 /* dragon_tongue_SPECROUGHLW.heic */; };
+		B3C302852ADEF98F00B71318 /* dragon_face_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301152ADEF98E00B71318 /* dragon_face_AMBIENT.heic */; };
+		B3C302862ADEF98F00B71318 /* dragon_face_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301162ADEF98E00B71318 /* dragon_face_AO.heic */; };
+		B3C302872ADEF98F00B71318 /* dragon_face_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301172ADEF98E00B71318 /* dragon_face_DIFFUSE.heic */; };
+		B3C302882ADEF98F00B71318 /* dragon.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C301182ADEF98E00B71318 /* dragon.scnz */; };
+		B3C302892ADEF98F00B71318 /* dragon_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301192ADEF98E00B71318 /* dragon_head_AO.heic */; };
+		B3C3028A2ADEF98F00B71318 /* dragon-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011A2ADEF98E00B71318 /* dragon-camera.atx */; };
+		B3C3028B2ADEF98F00B71318 /* dragon_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011B2ADEF98E00B71318 /* dragon_head_AMBIENT.heic */; };
+		B3C3028C2ADEF98F00B71318 /* dragon_eye_REFLECTIVE_back.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011C2ADEF98E00B71318 /* dragon_eye_REFLECTIVE_back.heic */; };
+		B3C3028D2ADEF98F00B71318 /* dragon_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011D2ADEF98E00B71318 /* dragon_head_DIFFUSE.heic */; };
+		B3C3028E2ADEF98F00B71318 /* dragon-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011E2ADEF98E00B71318 /* dragon-cameras.scn */; };
+		B3C3028F2ADEF98F00B71318 /* dragon-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3011F2ADEF98E00B71318 /* dragon-cameraGrid.atx */; };
+		B3C302902ADEF98F00B71318 /* dragon_face_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301202ADEF98E00B71318 /* dragon_face_SPECROUGHLW.heic */; };
+		B3C302912ADEF98F00B71318 /* chicken_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301222ADEF98E00B71318 /* chicken_head_ONTOP.heic */; };
+		B3C302922ADEF98F00B71318 /* chicken_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301232ADEF98E00B71318 /* chicken_head_DIFFUSE.heic */; };
+		B3C302932ADEF98F00B71318 /* chicken-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301242ADEF98E00B71318 /* chicken-camera.atx */; };
+		B3C302942ADEF98F00B71318 /* chicken_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301252ADEF98E00B71318 /* chicken_head_AO.heic */; };
+		B3C302952ADEF98F00B71318 /* chicken_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301262ADEF98E00B71318 /* chicken_head_AMBIENT.heic */; };
+		B3C302962ADEF98F00B71318 /* chicken_tongue_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301272ADEF98E00B71318 /* chicken_tongue_DIFFUSE.heic */; };
+		B3C302972ADEF98F00B71318 /* chicken-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301282ADEF98E00B71318 /* chicken-cameras.scn */; };
+		B3C302982ADEF98F00B71318 /* chicken.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C301292ADEF98E00B71318 /* chicken.scnz */; };
+		B3C302992ADEF98F00B71318 /* chicken-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3012A2ADEF98E00B71318 /* chicken-cameraGrid.atx */; };
+		B3C3029A2ADEF98F00B71318 /* chicken_tongue_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3012B2ADEF98E00B71318 /* chicken_tongue_AO.heic */; };
+		B3C3029B2ADEF98F00B71318 /* chicken_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3012C2ADEF98E00B71318 /* chicken_head_SPECROUGHLW.heic */; };
+		B3C3029C2ADEF98F00B71318 /* monkey-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3012E2ADEF98E00B71318 /* monkey-cameras.scn */; };
+		B3C3029D2ADEF98F00B71318 /* monkey_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3012F2ADEF98E00B71318 /* monkey_head_ONTOP.heic */; };
+		B3C3029E2ADEF98F00B71318 /* monkey-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301302ADEF98E00B71318 /* monkey-cameraGrid.atx */; };
+		B3C3029F2ADEF98F00B71318 /* monkey_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301312ADEF98E00B71318 /* monkey_mouth_DIFFUSE.heic */; };
+		B3C302A02ADEF98F00B71318 /* monkey-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301322ADEF98E00B71318 /* monkey-camera.atx */; };
+		B3C302A12ADEF98F00B71318 /* monkey_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301332ADEF98E00B71318 /* monkey_head_AO.heic */; };
+		B3C302A22ADEF98F00B71318 /* monkey_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301342ADEF98E00B71318 /* monkey_mouth_AO.heic */; };
+		B3C302A32ADEF98F00B71318 /* monkey_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301352ADEF98E00B71318 /* monkey_head_SPECROUGHLW.heic */; };
+		B3C302A42ADEF98F00B71318 /* monkey_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301362ADEF98E00B71318 /* monkey_head_DIFFUSE.heic */; };
+		B3C302A52ADEF98F00B71318 /* monkey_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301372ADEF98E00B71318 /* monkey_tongue_SPECROUGHLW.heic */; };
+		B3C302A62ADEF98F00B71318 /* monkey_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301382ADEF98E00B71318 /* monkey_head_AMBIENT.heic */; };
+		B3C302A72ADEF98F00B71318 /* monkey.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C301392ADEF98E00B71318 /* monkey.scnz */; };
+		B3C302A82ADEF98F00B71318 /* rabbit_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3013B2ADEF98E00B71318 /* rabbit_head_ONTOP.heic */; };
+		B3C302A92ADEF98F00B71318 /* rabbit_mouth_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3013C2ADEF98E00B71318 /* rabbit_mouth_AMBIENT.heic */; };
+		B3C302AA2ADEF98F00B71318 /* rabbit_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3013D2ADEF98E00B71318 /* rabbit_head_AO.heic */; };
+		B3C302AB2ADEF98F00B71318 /* rabbit_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3013E2ADEF98E00B71318 /* rabbit_mouth_DIFFUSE.heic */; };
+		B3C302AC2ADEF98F00B71318 /* rabbit.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3013F2ADEF98E00B71318 /* rabbit.scnz */; };
+		B3C302AD2ADEF98F00B71318 /* rabbit_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301402ADEF98E00B71318 /* rabbit_tongue_SPECROUGHLW.heic */; };
+		B3C302AE2ADEF98F00B71318 /* rabbit_whiskers_MASK.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301412ADEF98E00B71318 /* rabbit_whiskers_MASK.heic */; };
+		B3C302AF2ADEF98F00B71318 /* rabbit_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301422ADEF98E00B71318 /* rabbit_head_SPECROUGHLW.heic */; };
+		B3C302B02ADEF98F00B71318 /* rabbit-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301432ADEF98E00B71318 /* rabbit-cameras.scn */; };
+		B3C302B12ADEF98F00B71318 /* rabbit-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301442ADEF98E00B71318 /* rabbit-cameraGrid.atx */; };
+		B3C302B22ADEF98F00B71318 /* rabbit-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301452ADEF98E00B71318 /* rabbit-camera.atx */; };
+		B3C302B32ADEF98F00B71318 /* rabbit_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301462ADEF98E00B71318 /* rabbit_head_AMBIENT.heic */; };
+		B3C302B42ADEF98F00B71318 /* rabbit_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301472ADEF98E00B71318 /* rabbit_mouth_AO.heic */; };
+		B3C302B52ADEF98F00B71318 /* rabbit_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301482ADEF98E00B71318 /* rabbit_head_DIFFUSE.heic */; };
+		B3C302B62ADEF98F00B71318 /* koala_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014A2ADEF98E00B71318 /* koala_mouth_DIFFUSE.heic */; };
+		B3C302B72ADEF98F00B71318 /* koala_mouth_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014B2ADEF98E00B71318 /* koala_mouth_AMBIENT.heic */; };
+		B3C302B82ADEF98F00B71318 /* koala_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014C2ADEF98E00B71318 /* koala_head_AO.heic */; };
+		B3C302B92ADEF98F00B71318 /* koala.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014D2ADEF98E00B71318 /* koala.scnz */; };
+		B3C302BA2ADEF98F00B71318 /* koala-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014E2ADEF98E00B71318 /* koala-camera.atx */; };
+		B3C302BB2ADEF98F00B71318 /* koala-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3014F2ADEF98E00B71318 /* koala-cameraGrid.atx */; };
+		B3C302BC2ADEF98F00B71318 /* koala_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301502ADEF98E00B71318 /* koala_head_ONTOP.heic */; };
+		B3C302BD2ADEF98F00B71318 /* koala-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301512ADEF98E00B71318 /* koala-cameras.scn */; };
+		B3C302BE2ADEF98F00B71318 /* koala_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301522ADEF98E00B71318 /* koala_mouth_AO.heic */; };
+		B3C302BF2ADEF98F00B71318 /* koala_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301532ADEF98E00B71318 /* koala_head_DIFFUSE.heic */; };
+		B3C302C02ADEF98F00B71318 /* koala_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301542ADEF98E00B71318 /* koala_head_SPECROUGHLW.heic */; };
+		B3C302C12ADEF98F00B71318 /* koala_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301552ADEF98E00B71318 /* koala_head_AMBIENT.heic */; };
+		B3C302C22ADEF98F00B71318 /* octopus_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301572ADEF98E00B71318 /* octopus_mouth_DIFFUSE.heic */; };
+		B3C302C32ADEF98F00B71318 /* octopus.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C301582ADEF98E00B71318 /* octopus.scnz */; };
+		B3C302C42ADEF98F00B71318 /* octopus_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301592ADEF98E00B71318 /* octopus_head_DIFFUSE.heic */; };
+		B3C302C52ADEF98F00B71318 /* octopus_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015A2ADEF98E00B71318 /* octopus_head_AMBIENT.heic */; };
+		B3C302C62ADEF98F00B71318 /* octopus_head_REFLECTIVE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015B2ADEF98E00B71318 /* octopus_head_REFLECTIVE.heic */; };
+		B3C302C72ADEF98F00B71318 /* octopus-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015C2ADEF98E00B71318 /* octopus-cameraGrid.atx */; };
+		B3C302C82ADEF98F00B71318 /* octopus-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015D2ADEF98E00B71318 /* octopus-camera.atx */; };
+		B3C302C92ADEF98F00B71318 /* octopus_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015E2ADEF98E00B71318 /* octopus_mouth_SPECROUGHLW.heic */; };
+		B3C302CA2ADEF98F00B71318 /* octopus_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3015F2ADEF98E00B71318 /* octopus_head_AO.heic */; };
+		B3C302CB2ADEF98F00B71318 /* octopus_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301602ADEF98E00B71318 /* octopus_head_ONTOP.heic */; };
+		B3C302CC2ADEF98F00B71318 /* octopus_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301612ADEF98E00B71318 /* octopus_head_SPECROUGHLW.heic */; };
+		B3C302CD2ADEF98F00B71318 /* octopus-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301622ADEF98E00B71318 /* octopus-cameras.scn */; };
+		B3C302CE2ADEF98F00B71318 /* octopus_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301632ADEF98E00B71318 /* octopus_mouth_AO.heic */; };
+		B3C302CF2ADEF98F00B71318 /* environment.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301642ADEF98E00B71318 /* environment.scn */; };
+		B3C302D02ADEF98F00B71318 /* unicorn_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301662ADEF98E00B71318 /* unicorn_head_DIFFUSE.heic */; };
+		B3C302D12ADEF98F00B71318 /* unicorn_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301672ADEF98E00B71318 /* unicorn_head_AO.heic */; };
+		B3C302D22ADEF98F00B71318 /* unicorn_mane_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301682ADEF98E00B71318 /* unicorn_mane_DIFFUSE.heic */; };
+		B3C302D32ADEF98F00B71318 /* unicorn_mane_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301692ADEF98E00B71318 /* unicorn_mane_ONTOP.heic */; };
+		B3C302D42ADEF98F00B71318 /* unicorn_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016A2ADEF98E00B71318 /* unicorn_mouth_DIFFUSE.heic */; };
+		B3C302D52ADEF98F00B71318 /* unicorn_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016B2ADEF98E00B71318 /* unicorn_head_AMBIENT.heic */; };
+		B3C302D62ADEF98F00B71318 /* unicorn_mane_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016C2ADEF98E00B71318 /* unicorn_mane_AMBIENT.heic */; };
+		B3C302D72ADEF98F00B71318 /* unicorn_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016D2ADEF98E00B71318 /* unicorn_mouth_AO.heic */; };
+		B3C302D82ADEF98F00B71318 /* unicorn_horn_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016E2ADEF98E00B71318 /* unicorn_horn_AO.heic */; };
+		B3C302D92ADEF98F00B71318 /* unicorn_mane_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3016F2ADEF98E00B71318 /* unicorn_mane_AO.heic */; };
+		B3C302DA2ADEF98F00B71318 /* unicorn_mane_SPECULAR.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301702ADEF98E00B71318 /* unicorn_mane_SPECULAR.heic */; };
+		B3C302DB2ADEF98F00B71318 /* unicorn_head_SPECULAR.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301712ADEF98E00B71318 /* unicorn_head_SPECULAR.heic */; };
+		B3C302DC2ADEF98F00B71318 /* unicorn_tongue_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301722ADEF98E00B71318 /* unicorn_tongue_SPECROUGHLW.heic */; };
+		B3C302DD2ADEF98F00B71318 /* unicorn-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301732ADEF98E00B71318 /* unicorn-camera.atx */; };
+		B3C302DE2ADEF98F00B71318 /* unicorn_horn_EMISSION.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301742ADEF98E00B71318 /* unicorn_horn_EMISSION.heic */; };
+		B3C302DF2ADEF98F00B71318 /* unicorn-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301752ADEF98E00B71318 /* unicorn-cameras.scn */; };
+		B3C302E02ADEF98F00B71318 /* unicorn-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301762ADEF98E00B71318 /* unicorn-cameraGrid.atx */; };
+		B3C302E12ADEF98F00B71318 /* unicorn.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C301772ADEF98E00B71318 /* unicorn.scnz */; };
+		B3C302E22ADEF98F00B71318 /* unicorn_horn_SPECULAR.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301782ADEF98E00B71318 /* unicorn_horn_SPECULAR.heic */; };
+		B3C302E32ADEF98F00B71318 /* unicorn_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301792ADEF98E00B71318 /* unicorn_head_ONTOP.heic */; };
+		B3C302E42ADEF98F00B71318 /* cow_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3017B2ADEF98E00B71318 /* cow_mouth_DIFFUSE.heic */; };
+		B3C302E52ADEF98F00B71318 /* cow_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3017C2ADEF98E00B71318 /* cow_head_ONTOP.heic */; };
+		B3C302E62ADEF98F00B71318 /* cow.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3017D2ADEF98E00B71318 /* cow.scnz */; };
+		B3C302E72ADEF98F00B71318 /* cow-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C3017E2ADEF98E00B71318 /* cow-camera.atx */; };
+		B3C302E82ADEF98F00B71318 /* cow_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3017F2ADEF98E00B71318 /* cow_head_AO.heic */; };
+		B3C302E92ADEF98F00B71318 /* cow-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C301802ADEF98E00B71318 /* cow-cameras.scn */; };
+		B3C302EA2ADEF98F00B71318 /* cow_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301812ADEF98E00B71318 /* cow_head_AMBIENT.heic */; };
+		B3C302EB2ADEF98F00B71318 /* cow-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301822ADEF98E00B71318 /* cow-cameraGrid.atx */; };
+		B3C302EC2ADEF98F00B71318 /* cow_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301832ADEF98E00B71318 /* cow_head_DIFFUSE.heic */; };
+		B3C302ED2ADEF98F00B71318 /* cow_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301842ADEF98E00B71318 /* cow_mouth_AO.heic */; };
+		B3C302EE2ADEF98F00B71318 /* cow_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301852ADEF98E00B71318 /* cow_mouth_SPECROUGHLW.heic */; };
+		B3C302EF2ADEF98F00B71318 /* cow_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301862ADEF98E00B71318 /* cow_head_SPECROUGHLW.heic */; };
+		B3C302F02ADEF98F00B71318 /* lion_hair_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301882ADEF98E00B71318 /* lion_hair_ONTOP.heic */; };
+		B3C302F12ADEF98F00B71318 /* lion-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301892ADEF98E00B71318 /* lion-camera.atx */; };
+		B3C302F22ADEF98F00B71318 /* lion_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018A2ADEF98E00B71318 /* lion_head_AMBIENT.heic */; };
+		B3C302F32ADEF98F00B71318 /* lion_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018B2ADEF98E00B71318 /* lion_mouth_DIFFUSE.heic */; };
+		B3C302F42ADEF98F00B71318 /* lion_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018C2ADEF98E00B71318 /* lion_head_DIFFUSE.heic */; };
+		B3C302F52ADEF98F00B71318 /* lion_hair_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018D2ADEF98E00B71318 /* lion_hair_AMBIENT.heic */; };
+		B3C302F62ADEF98F00B71318 /* lion-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018E2ADEF98E00B71318 /* lion-cameras.scn */; };
+		B3C302F72ADEF98F00B71318 /* lion.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3018F2ADEF98E00B71318 /* lion.scnz */; };
+		B3C302F82ADEF98F00B71318 /* lion_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301902ADEF98E00B71318 /* lion_head_ONTOP.heic */; };
+		B3C302F92ADEF98F00B71318 /* lion_hair_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301912ADEF98E00B71318 /* lion_hair_SPECROUGHLW.heic */; };
+		B3C302FA2ADEF98F00B71318 /* lion_hair_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301922ADEF98E00B71318 /* lion_hair_DIFFUSE.heic */; };
+		B3C302FB2ADEF98F00B71318 /* lion-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301932ADEF98E00B71318 /* lion-cameraGrid.atx */; };
+		B3C302FC2ADEF98F00B71318 /* lion_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301942ADEF98E00B71318 /* lion_mouth_AO.heic */; };
+		B3C302FD2ADEF98F00B71318 /* lion_hair_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301952ADEF98E00B71318 /* lion_hair_AO.heic */; };
+		B3C302FE2ADEF98F00B71318 /* lion_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301962ADEF98E00B71318 /* lion_head_SPECROUGHLW.heic */; };
+		B3C302FF2ADEF98F00B71318 /* lion_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301972ADEF98E00B71318 /* lion_head_AO.heic */; };
+		B3C303002ADEF98F00B71318 /* shark_head_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301992ADEF98E00B71318 /* shark_head_AO.heic */; };
+		B3C303012ADEF98F00B71318 /* shark_mouth_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019A2ADEF98E00B71318 /* shark_mouth_SPECROUGHLW.heic */; };
+		B3C303022ADEF98F00B71318 /* shark-cameras.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019B2ADEF98E00B71318 /* shark-cameras.scn */; };
+		B3C303032ADEF98F00B71318 /* shark_head_SPECROUGHLW.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019C2ADEF98E00B71318 /* shark_head_SPECROUGHLW.heic */; };
+		B3C303042ADEF98F00B71318 /* shark_mouth_AO.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019D2ADEF98E00B71318 /* shark_mouth_AO.heic */; };
+		B3C303052ADEF98F00B71318 /* shark_head_ONTOP.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019E2ADEF98E00B71318 /* shark_head_ONTOP.heic */; };
+		B3C303062ADEF98F00B71318 /* shark.scnz in Resources */ = {isa = PBXBuildFile; fileRef = B3C3019F2ADEF98E00B71318 /* shark.scnz */; };
+		B3C303072ADEF98F00B71318 /* shark_mouth_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301A02ADEF98E00B71318 /* shark_mouth_DIFFUSE.heic */; };
+		B3C303082ADEF98F00B71318 /* shark_head_DIFFUSE.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301A12ADEF98E00B71318 /* shark_head_DIFFUSE.heic */; };
+		B3C303092ADEF98F00B71318 /* shark-camera.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301A22ADEF98E00B71318 /* shark-camera.atx */; };
+		B3C3030A2ADEF98F00B71318 /* shark_head_AMBIENT.heic in Resources */ = {isa = PBXBuildFile; fileRef = B3C301A32ADEF98E00B71318 /* shark_head_AMBIENT.heic */; };
+		B3C3030B2ADEF98F00B71318 /* shark-cameraGrid.atx in Resources */ = {isa = PBXBuildFile; fileRef = B3C301A42ADEF98E00B71318 /* shark-cameraGrid.atx */; };
+		B3C3030D2ADEFB9400B71318 /* Avatar3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3030C2ADEFB9400B71318 /* Avatar3DView.swift */; };
+		B3C3030F2ADEFE6300B71318 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3030E2ADEFE6300B71318 /* BottomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +380,369 @@
 		B325614B2AD2E6A2002733DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B325614D2AD2E6A3002733DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B32561502AD2E6A3002733DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B36E06B82ADEF4D50048C753 /* alien.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = alien.scn; path = ../../../../Downloads/alien.scn; sourceTree = "<group>"; };
+		B36E06BB2ADEF4FB0048C753 /* alien.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; name = alien.scnz; path = ../../../../Downloads/animoji/alien/alien.scnz; sourceTree = "<group>"; };
+		B3C300232ADEF98E00B71318 /* skull_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300242ADEF98E00B71318 /* skull_nose_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_nose_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300252ADEF98E00B71318 /* skull-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "skull-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300262ADEF98E00B71318 /* skull-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "skull-cameras.scn"; sourceTree = "<group>"; };
+		B3C300272ADEF98E00B71318 /* skull_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300282ADEF98E00B71318 /* skull-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "skull-camera.atx"; sourceTree = "<group>"; };
+		B3C300292ADEF98E00B71318 /* skull_jawInsert_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_jawInsert_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3002A2ADEF98E00B71318 /* skull_jawInsert_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_jawInsert_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3002B2ADEF98E00B71318 /* skull_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3002C2ADEF98E00B71318 /* skull_tongue_TRANSPARENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_tongue_TRANSPARENT.heic; sourceTree = "<group>"; };
+		B3C3002D2ADEF98E00B71318 /* skull_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_head_AO.heic; sourceTree = "<group>"; };
+		B3C3002E2ADEF98E00B71318 /* skull_mouthbag_TRANSPARENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_mouthbag_TRANSPARENT.heic; sourceTree = "<group>"; };
+		B3C3002F2ADEF98E00B71318 /* skull_tongue_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_tongue_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300302ADEF98E00B71318 /* skull.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull.scnz; sourceTree = "<group>"; };
+		B3C300312ADEF98E00B71318 /* skull_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = skull_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300332ADEF98E00B71318 /* cat.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.scnz; sourceTree = "<group>"; };
+		B3C300342ADEF98E00B71318 /* cat-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cat-camera.atx"; sourceTree = "<group>"; };
+		B3C300352ADEF98E00B71318 /* cat_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300362ADEF98E00B71318 /* cat_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300372ADEF98E00B71318 /* cat_whiskers_MASK.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_whiskers_MASK.heic; sourceTree = "<group>"; };
+		B3C300382ADEF98E00B71318 /* cat-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "cat-cameras.scn"; sourceTree = "<group>"; };
+		B3C300392ADEF98E00B71318 /* cat-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cat-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C3003A2ADEF98E00B71318 /* cat_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3003B2ADEF98E00B71318 /* cat_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C3003C2ADEF98E00B71318 /* cat_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3003D2ADEF98E00B71318 /* cat_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_head_AO.heic; sourceTree = "<group>"; };
+		B3C3003E2ADEF98E00B71318 /* cat_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300402ADEF98E00B71318 /* trex.scnz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trex.scnz; sourceTree = "<group>"; };
+		B3C300412ADEF98E00B71318 /* trex_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300422ADEF98E00B71318 /* trex_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_AO.heic; sourceTree = "<group>"; };
+		B3C300432ADEF98E00B71318 /* trex_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300442ADEF98E00B71318 /* trex-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trex-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300452ADEF98E00B71318 /* trex_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300462ADEF98E00B71318 /* trex_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300472ADEF98E00B71318 /* trex_head_REFLECTIVE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_REFLECTIVE.heic; sourceTree = "<group>"; };
+		B3C300482ADEF98E00B71318 /* trex_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300492ADEF98E00B71318 /* trex-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trex-camera.atx"; sourceTree = "<group>"; };
+		B3C3004A2ADEF98E00B71318 /* trex_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3004B2ADEF98E00B71318 /* trex-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "trex-cameras.scn"; sourceTree = "<group>"; };
+		B3C3004C2ADEF98E00B71318 /* trex_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3004E2ADEF98E00B71318 /* pig_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3004F2ADEF98E00B71318 /* pig_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300502ADEF98E00B71318 /* pig_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300512ADEF98E00B71318 /* pig_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300522ADEF98E00B71318 /* pig.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig.scnz; sourceTree = "<group>"; };
+		B3C300532ADEF98E00B71318 /* pig-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pig-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300542ADEF98E00B71318 /* pig_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300552ADEF98E00B71318 /* pig_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300562ADEF98E00B71318 /* pig-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pig-camera.atx"; sourceTree = "<group>"; };
+		B3C300572ADEF98E00B71318 /* pig-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "pig-cameras.scn"; sourceTree = "<group>"; };
+		B3C300582ADEF98E00B71318 /* pig_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_head_AO.heic; sourceTree = "<group>"; };
+		B3C300592ADEF98E00B71318 /* pig_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3005B2ADEF98E00B71318 /* dog-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "dog-cameras.scn"; sourceTree = "<group>"; };
+		B3C3005C2ADEF98E00B71318 /* dog_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3005D2ADEF98E00B71318 /* dog_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3005E2ADEF98E00B71318 /* dog_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3005F2ADEF98E00B71318 /* dog_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300602ADEF98E00B71318 /* dog.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.scnz; sourceTree = "<group>"; };
+		B3C300612ADEF98E00B71318 /* dog_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300622ADEF98E00B71318 /* dog_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300632ADEF98E00B71318 /* dog-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dog-camera.atx"; sourceTree = "<group>"; };
+		B3C300642ADEF98E00B71318 /* dog_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_head_AO.heic; sourceTree = "<group>"; };
+		B3C300652ADEF98E00B71318 /* dog_tongue_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_tongue_AO.heic; sourceTree = "<group>"; };
+		B3C300662ADEF98E00B71318 /* dog-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dog-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300682ADEF98E00B71318 /* fox_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300692ADEF98E00B71318 /* fox_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3006A2ADEF98E00B71318 /* fox_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3006B2ADEF98E00B71318 /* fox.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox.scnz; sourceTree = "<group>"; };
+		B3C3006C2ADEF98E00B71318 /* fox-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fox-camera.atx"; sourceTree = "<group>"; };
+		B3C3006D2ADEF98E00B71318 /* fox_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_head_AO.heic; sourceTree = "<group>"; };
+		B3C3006E2ADEF98E00B71318 /* fox_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C3006F2ADEF98E00B71318 /* fox_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300702ADEF98E00B71318 /* fox_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = fox_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300712ADEF98E00B71318 /* fox-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "fox-cameras.scn"; sourceTree = "<group>"; };
+		B3C300722ADEF98E00B71318 /* fox-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fox-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300742ADEF98E00B71318 /* boar_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300752ADEF98E00B71318 /* boar_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300762ADEF98E00B71318 /* boar_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_head_AO.heic; sourceTree = "<group>"; };
+		B3C300772ADEF98E00B71318 /* boar_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300782ADEF98E00B71318 /* boar-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "boar-cameras.scn"; sourceTree = "<group>"; };
+		B3C300792ADEF98E00B71318 /* boar_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3007A2ADEF98E00B71318 /* boar_mouth_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_mouth_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3007B2ADEF98E00B71318 /* boar_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3007C2ADEF98E00B71318 /* boar_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3007D2ADEF98E00B71318 /* boar_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C3007E2ADEF98E00B71318 /* boar.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = boar.scnz; sourceTree = "<group>"; };
+		B3C3007F2ADEF98E00B71318 /* boar-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boar-camera.atx"; sourceTree = "<group>"; };
+		B3C300802ADEF98E00B71318 /* boar-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boar-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300822ADEF98E00B71318 /* giraffe_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300832ADEF98E00B71318 /* giraffe_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300842ADEF98E00B71318 /* giraffe_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300852ADEF98E00B71318 /* giraffe-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "giraffe-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300862ADEF98E00B71318 /* giraffe_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300872ADEF98E00B71318 /* giraffe-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "giraffe-cameras.scn"; sourceTree = "<group>"; };
+		B3C300882ADEF98E00B71318 /* giraffe_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300892ADEF98E00B71318 /* giraffe_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_head_AO.heic; sourceTree = "<group>"; };
+		B3C3008A2ADEF98E00B71318 /* giraffe_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3008B2ADEF98E00B71318 /* giraffe.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.scnz; sourceTree = "<group>"; };
+		B3C3008C2ADEF98E00B71318 /* giraffe-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "giraffe-camera.atx"; sourceTree = "<group>"; };
+		B3C3008D2ADEF98E00B71318 /* giraffe_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3008F2ADEF98E00B71318 /* bear-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "bear-cameras.scn"; sourceTree = "<group>"; };
+		B3C300902ADEF98E00B71318 /* bear_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300912ADEF98E00B71318 /* bear_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_AO.heic; sourceTree = "<group>"; };
+		B3C300922ADEF98E00B71318 /* bear_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300932ADEF98E00B71318 /* bear_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300942ADEF98E00B71318 /* bear.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear.scnz; sourceTree = "<group>"; };
+		B3C300952ADEF98E00B71318 /* bear-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bear-camera.atx"; sourceTree = "<group>"; };
+		B3C300962ADEF98E00B71318 /* bear-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bear-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300972ADEF98E00B71318 /* bear_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300982ADEF98E00B71318 /* bear_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300992ADEF98E00B71318 /* bear_head_SPECCOLOUR.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_SPECCOLOUR.heic; sourceTree = "<group>"; };
+		B3C3009A2ADEF98E00B71318 /* bear_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3009C2ADEF98E00B71318 /* panda-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "panda-camera.atx"; sourceTree = "<group>"; };
+		B3C3009D2ADEF98E00B71318 /* panda.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda.scnz; sourceTree = "<group>"; };
+		B3C3009E2ADEF98E00B71318 /* panda_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3009F2ADEF98E00B71318 /* panda_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300A02ADEF98E00B71318 /* panda-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "panda-cameras.scn"; sourceTree = "<group>"; };
+		B3C300A12ADEF98E00B71318 /* panda_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300A22ADEF98E00B71318 /* panda_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300A32ADEF98E00B71318 /* panda_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300A42ADEF98E00B71318 /* panda_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300A52ADEF98E00B71318 /* panda-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "panda-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300A62ADEF98E00B71318 /* panda_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_head_AO.heic; sourceTree = "<group>"; };
+		B3C300A72ADEF98E00B71318 /* panda_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300A92ADEF98E00B71318 /* owl_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300AA2ADEF98E00B71318 /* owl_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300AB2ADEF98E00B71318 /* owl_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300AC2ADEF98E00B71318 /* owl_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300AD2ADEF98E00B71318 /* owl-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "owl-cameras.scn"; sourceTree = "<group>"; };
+		B3C300AE2ADEF98E00B71318 /* owl-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "owl-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300AF2ADEF98E00B71318 /* owl_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300B02ADEF98E00B71318 /* owl_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_head_AO.heic; sourceTree = "<group>"; };
+		B3C300B12ADEF98E00B71318 /* owl-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "owl-camera.atx"; sourceTree = "<group>"; };
+		B3C300B22ADEF98E00B71318 /* owl_eyes_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_eyes_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300B32ADEF98E00B71318 /* owl_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300B42ADEF98E00B71318 /* owl.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl.scnz; sourceTree = "<group>"; };
+		B3C300B52ADEF98E00B71318 /* owl_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300B72ADEF98E00B71318 /* tiger_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300B82ADEF98E00B71318 /* tiger_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300B92ADEF98E00B71318 /* tiger-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "tiger-cameras.scn"; sourceTree = "<group>"; };
+		B3C300BA2ADEF98E00B71318 /* tiger_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300BB2ADEF98E00B71318 /* tiger_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_head_AO.heic; sourceTree = "<group>"; };
+		B3C300BC2ADEF98E00B71318 /* tiger.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger.scnz; sourceTree = "<group>"; };
+		B3C300BD2ADEF98E00B71318 /* tiger_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300BE2ADEF98E00B71318 /* tiger-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tiger-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300BF2ADEF98E00B71318 /* tiger_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300C02ADEF98E00B71318 /* tiger-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tiger-camera.atx"; sourceTree = "<group>"; };
+		B3C300C12ADEF98E00B71318 /* tiger_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300C32ADEF98E00B71318 /* mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300C42ADEF98E00B71318 /* white.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = white.heic; sourceTree = "<group>"; };
+		B3C300C52ADEF98E00B71318 /* mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300C62ADEF98E00B71318 /* eye_uvs_REFLECTIVE_occlusion.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = eye_uvs_REFLECTIVE_occlusion.heic; sourceTree = "<group>"; };
+		B3C300C72ADEF98E00B71318 /* tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300C82ADEF98E00B71318 /* eye_uvs_REFLECTIVE_front.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = eye_uvs_REFLECTIVE_front.heic; sourceTree = "<group>"; };
+		B3C300C92ADEF98E00B71318 /* black.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = black.heic; sourceTree = "<group>"; };
+		B3C300CA2ADEF98E00B71318 /* eye_uvs_REFLECTIVE_back.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = eye_uvs_REFLECTIVE_back.heic; sourceTree = "<group>"; };
+		B3C300CC2ADEF98E00B71318 /* alien.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien.scnz; sourceTree = "<group>"; };
+		B3C300CD2ADEF98E00B71318 /* alien-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alien-camera.atx"; sourceTree = "<group>"; };
+		B3C300CE2ADEF98E00B71318 /* alien_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_head_AO.heic; sourceTree = "<group>"; };
+		B3C300CF2ADEF98E00B71318 /* alien-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "alien-cameras.scn"; sourceTree = "<group>"; };
+		B3C300D02ADEF98E00B71318 /* alien_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300D12ADEF98E00B71318 /* alien_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300D22ADEF98E00B71318 /* alien-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alien-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300D32ADEF98E00B71318 /* alien_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300D52ADEF98E00B71318 /* robot_eyeShadow_RAMP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_eyeShadow_RAMP.heic; sourceTree = "<group>"; };
+		B3C300D62ADEF98E00B71318 /* robot-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "robot-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300D72ADEF98E00B71318 /* robot_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300D82ADEF98E00B71318 /* robot_noseShadow_RAMP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_noseShadow_RAMP.heic; sourceTree = "<group>"; };
+		B3C300D92ADEF98E00B71318 /* robot_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300DA2ADEF98E00B71318 /* robot-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "robot-camera.atx"; sourceTree = "<group>"; };
+		B3C300DB2ADEF98E00B71318 /* robot_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300DC2ADEF98E00B71318 /* robot_tongue_REFLECTION.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_tongue_REFLECTION.heic; sourceTree = "<group>"; };
+		B3C300DD2ADEF98E00B71318 /* robot_tongue_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_tongue_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300DE2ADEF98E00B71318 /* robot_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_AO.heic; sourceTree = "<group>"; };
+		B3C300DF2ADEF98E00B71318 /* robot_head_RAMP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_RAMP.heic; sourceTree = "<group>"; };
+		B3C300E02ADEF98E00B71318 /* robot_red.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_red.heic; sourceTree = "<group>"; };
+		B3C300E12ADEF98E00B71318 /* robot_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300E22ADEF98E00B71318 /* robot_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300E32ADEF98E00B71318 /* robot_bulb_REFLECTION.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot_bulb_REFLECTION.heic; sourceTree = "<group>"; };
+		B3C300E42ADEF98E00B71318 /* robot.scnz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = robot.scnz; sourceTree = "<group>"; };
+		B3C300E52ADEF98E00B71318 /* robot-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "robot-cameras.scn"; sourceTree = "<group>"; };
+		B3C300E72ADEF98E00B71318 /* ghost_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300E82ADEF98E00B71318 /* ghost-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ghost-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300E92ADEF98E00B71318 /* ghost-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "ghost-cameras.scn"; sourceTree = "<group>"; };
+		B3C300EA2ADEF98E00B71318 /* ghost_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300EB2ADEF98E00B71318 /* ghost_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300EC2ADEF98E00B71318 /* ghost_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300ED2ADEF98E00B71318 /* ghost-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ghost-camera.atx"; sourceTree = "<group>"; };
+		B3C300EE2ADEF98E00B71318 /* ghost_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300EF2ADEF98E00B71318 /* ghost.scnz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ghost.scnz; sourceTree = "<group>"; };
+		B3C300F02ADEF98E00B71318 /* ghost_mouth_SPECULAR.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_mouth_SPECULAR.heic; sourceTree = "<group>"; };
+		B3C300F12ADEF98E00B71318 /* ghost_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300F32ADEF98E00B71318 /* mouse_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300F42ADEF98E00B71318 /* mouse_whiskers_MASK.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_whiskers_MASK.heic; sourceTree = "<group>"; };
+		B3C300F52ADEF98E00B71318 /* mouse_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C300F62ADEF98E00B71318 /* mouse-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mouse-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C300F72ADEF98E00B71318 /* mouse_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C300F82ADEF98E00B71318 /* mouse-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mouse-camera.atx"; sourceTree = "<group>"; };
+		B3C300F92ADEF98E00B71318 /* mouse_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300FA2ADEF98E00B71318 /* mouse.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse.scnz; sourceTree = "<group>"; };
+		B3C300FB2ADEF98E00B71318 /* mouse_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_head_AO.heic; sourceTree = "<group>"; };
+		B3C300FC2ADEF98E00B71318 /* mouse_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C300FD2ADEF98E00B71318 /* mouse_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C300FE2ADEF98E00B71318 /* mouse_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C300FF2ADEF98E00B71318 /* mouse-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "mouse-cameras.scn"; sourceTree = "<group>"; };
+		B3C301012ADEF98E00B71318 /* poo_tongue_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_tongue_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301022ADEF98E00B71318 /* poo_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301032ADEF98E00B71318 /* poo_tongue_TRANSPARENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_tongue_TRANSPARENT.heic; sourceTree = "<group>"; };
+		B3C301042ADEF98E00B71318 /* poo_body_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_body_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301052ADEF98E00B71318 /* poo_body_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_body_AO.heic; sourceTree = "<group>"; };
+		B3C301062ADEF98E00B71318 /* poo-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "poo-cameras.scn"; sourceTree = "<group>"; };
+		B3C301072ADEF98E00B71318 /* poo_body_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_body_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301082ADEF98E00B71318 /* poo_eye_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_eye_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301092ADEF98E00B71318 /* poo-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poo-camera.atx"; sourceTree = "<group>"; };
+		B3C3010A2ADEF98E00B71318 /* poo.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo.scnz; sourceTree = "<group>"; };
+		B3C3010B2ADEF98E00B71318 /* poo_body_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_body_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3010C2ADEF98E00B71318 /* poo-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poo-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C3010D2ADEF98E00B71318 /* poo_body_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = poo_body_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3010F2ADEF98E00B71318 /* dragon_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301102ADEF98E00B71318 /* dragon_eye_REFLECTIVE_front.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_eye_REFLECTIVE_front.heic; sourceTree = "<group>"; };
+		B3C301112ADEF98E00B71318 /* dragon_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301122ADEF98E00B71318 /* dragon_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301132ADEF98E00B71318 /* dragon_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301142ADEF98E00B71318 /* dragon_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301152ADEF98E00B71318 /* dragon_face_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_face_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301162ADEF98E00B71318 /* dragon_face_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_face_AO.heic; sourceTree = "<group>"; };
+		B3C301172ADEF98E00B71318 /* dragon_face_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_face_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301182ADEF98E00B71318 /* dragon.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon.scnz; sourceTree = "<group>"; };
+		B3C301192ADEF98E00B71318 /* dragon_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_head_AO.heic; sourceTree = "<group>"; };
+		B3C3011A2ADEF98E00B71318 /* dragon-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dragon-camera.atx"; sourceTree = "<group>"; };
+		B3C3011B2ADEF98E00B71318 /* dragon_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3011C2ADEF98E00B71318 /* dragon_eye_REFLECTIVE_back.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_eye_REFLECTIVE_back.heic; sourceTree = "<group>"; };
+		B3C3011D2ADEF98E00B71318 /* dragon_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3011E2ADEF98E00B71318 /* dragon-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "dragon-cameras.scn"; sourceTree = "<group>"; };
+		B3C3011F2ADEF98E00B71318 /* dragon-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dragon-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301202ADEF98E00B71318 /* dragon_face_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon_face_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301222ADEF98E00B71318 /* chicken_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301232ADEF98E00B71318 /* chicken_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301242ADEF98E00B71318 /* chicken-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chicken-camera.atx"; sourceTree = "<group>"; };
+		B3C301252ADEF98E00B71318 /* chicken_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_head_AO.heic; sourceTree = "<group>"; };
+		B3C301262ADEF98E00B71318 /* chicken_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301272ADEF98E00B71318 /* chicken_tongue_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_tongue_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301282ADEF98E00B71318 /* chicken-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "chicken-cameras.scn"; sourceTree = "<group>"; };
+		B3C301292ADEF98E00B71318 /* chicken.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken.scnz; sourceTree = "<group>"; };
+		B3C3012A2ADEF98E00B71318 /* chicken-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chicken-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C3012B2ADEF98E00B71318 /* chicken_tongue_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_tongue_AO.heic; sourceTree = "<group>"; };
+		B3C3012C2ADEF98E00B71318 /* chicken_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3012E2ADEF98E00B71318 /* monkey-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "monkey-cameras.scn"; sourceTree = "<group>"; };
+		B3C3012F2ADEF98E00B71318 /* monkey_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301302ADEF98E00B71318 /* monkey-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "monkey-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301312ADEF98E00B71318 /* monkey_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301322ADEF98E00B71318 /* monkey-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "monkey-camera.atx"; sourceTree = "<group>"; };
+		B3C301332ADEF98E00B71318 /* monkey_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_head_AO.heic; sourceTree = "<group>"; };
+		B3C301342ADEF98E00B71318 /* monkey_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301352ADEF98E00B71318 /* monkey_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301362ADEF98E00B71318 /* monkey_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301372ADEF98E00B71318 /* monkey_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301382ADEF98E00B71318 /* monkey_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301392ADEF98E00B71318 /* monkey.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.scnz; sourceTree = "<group>"; };
+		B3C3013B2ADEF98E00B71318 /* rabbit_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3013C2ADEF98E00B71318 /* rabbit_mouth_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_mouth_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3013D2ADEF98E00B71318 /* rabbit_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_head_AO.heic; sourceTree = "<group>"; };
+		B3C3013E2ADEF98E00B71318 /* rabbit_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3013F2ADEF98E00B71318 /* rabbit.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit.scnz; sourceTree = "<group>"; };
+		B3C301402ADEF98E00B71318 /* rabbit_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301412ADEF98E00B71318 /* rabbit_whiskers_MASK.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_whiskers_MASK.heic; sourceTree = "<group>"; };
+		B3C301422ADEF98E00B71318 /* rabbit_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301432ADEF98E00B71318 /* rabbit-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "rabbit-cameras.scn"; sourceTree = "<group>"; };
+		B3C301442ADEF98E00B71318 /* rabbit-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rabbit-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301452ADEF98E00B71318 /* rabbit-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rabbit-camera.atx"; sourceTree = "<group>"; };
+		B3C301462ADEF98E00B71318 /* rabbit_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301472ADEF98E00B71318 /* rabbit_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301482ADEF98E00B71318 /* rabbit_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3014A2ADEF98E00B71318 /* koala_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3014B2ADEF98E00B71318 /* koala_mouth_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_mouth_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3014C2ADEF98E00B71318 /* koala_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_head_AO.heic; sourceTree = "<group>"; };
+		B3C3014D2ADEF98E00B71318 /* koala.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala.scnz; sourceTree = "<group>"; };
+		B3C3014E2ADEF98E00B71318 /* koala-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "koala-camera.atx"; sourceTree = "<group>"; };
+		B3C3014F2ADEF98E00B71318 /* koala-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "koala-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301502ADEF98E00B71318 /* koala_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301512ADEF98E00B71318 /* koala-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "koala-cameras.scn"; sourceTree = "<group>"; };
+		B3C301522ADEF98E00B71318 /* koala_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301532ADEF98E00B71318 /* koala_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301542ADEF98E00B71318 /* koala_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301552ADEF98E00B71318 /* koala_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301572ADEF98E00B71318 /* octopus_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301582ADEF98E00B71318 /* octopus.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus.scnz; sourceTree = "<group>"; };
+		B3C301592ADEF98E00B71318 /* octopus_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3015A2ADEF98E00B71318 /* octopus_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3015B2ADEF98E00B71318 /* octopus_head_REFLECTIVE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_REFLECTIVE.heic; sourceTree = "<group>"; };
+		B3C3015C2ADEF98E00B71318 /* octopus-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "octopus-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C3015D2ADEF98E00B71318 /* octopus-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "octopus-camera.atx"; sourceTree = "<group>"; };
+		B3C3015E2ADEF98E00B71318 /* octopus_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3015F2ADEF98E00B71318 /* octopus_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_AO.heic; sourceTree = "<group>"; };
+		B3C301602ADEF98E00B71318 /* octopus_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301612ADEF98E00B71318 /* octopus_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301622ADEF98E00B71318 /* octopus-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "octopus-cameras.scn"; sourceTree = "<group>"; };
+		B3C301632ADEF98E00B71318 /* octopus_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301642ADEF98E00B71318 /* environment.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = environment.scn; sourceTree = "<group>"; };
+		B3C301662ADEF98E00B71318 /* unicorn_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301672ADEF98E00B71318 /* unicorn_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_head_AO.heic; sourceTree = "<group>"; };
+		B3C301682ADEF98E00B71318 /* unicorn_mane_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mane_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301692ADEF98E00B71318 /* unicorn_mane_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mane_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3016A2ADEF98E00B71318 /* unicorn_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3016B2ADEF98E00B71318 /* unicorn_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3016C2ADEF98E00B71318 /* unicorn_mane_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mane_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3016D2ADEF98E00B71318 /* unicorn_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C3016E2ADEF98E00B71318 /* unicorn_horn_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_horn_AO.heic; sourceTree = "<group>"; };
+		B3C3016F2ADEF98E00B71318 /* unicorn_mane_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mane_AO.heic; sourceTree = "<group>"; };
+		B3C301702ADEF98E00B71318 /* unicorn_mane_SPECULAR.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_mane_SPECULAR.heic; sourceTree = "<group>"; };
+		B3C301712ADEF98E00B71318 /* unicorn_head_SPECULAR.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_head_SPECULAR.heic; sourceTree = "<group>"; };
+		B3C301722ADEF98E00B71318 /* unicorn_tongue_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_tongue_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301732ADEF98E00B71318 /* unicorn-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "unicorn-camera.atx"; sourceTree = "<group>"; };
+		B3C301742ADEF98E00B71318 /* unicorn_horn_EMISSION.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_horn_EMISSION.heic; sourceTree = "<group>"; };
+		B3C301752ADEF98E00B71318 /* unicorn-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "unicorn-cameras.scn"; sourceTree = "<group>"; };
+		B3C301762ADEF98E00B71318 /* unicorn-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "unicorn-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301772ADEF98E00B71318 /* unicorn.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn.scnz; sourceTree = "<group>"; };
+		B3C301782ADEF98E00B71318 /* unicorn_horn_SPECULAR.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_horn_SPECULAR.heic; sourceTree = "<group>"; };
+		B3C301792ADEF98E00B71318 /* unicorn_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicorn_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3017B2ADEF98E00B71318 /* cow_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3017C2ADEF98E00B71318 /* cow_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3017D2ADEF98E00B71318 /* cow.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow.scnz; sourceTree = "<group>"; };
+		B3C3017E2ADEF98E00B71318 /* cow-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cow-camera.atx"; sourceTree = "<group>"; };
+		B3C3017F2ADEF98E00B71318 /* cow_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_head_AO.heic; sourceTree = "<group>"; };
+		B3C301802ADEF98E00B71318 /* cow-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "cow-cameras.scn"; sourceTree = "<group>"; };
+		B3C301812ADEF98E00B71318 /* cow_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301822ADEF98E00B71318 /* cow-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cow-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301832ADEF98E00B71318 /* cow_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301842ADEF98E00B71318 /* cow_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301852ADEF98E00B71318 /* cow_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301862ADEF98E00B71318 /* cow_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301882ADEF98E00B71318 /* lion_hair_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_hair_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301892ADEF98E00B71318 /* lion-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lion-camera.atx"; sourceTree = "<group>"; };
+		B3C3018A2ADEF98E00B71318 /* lion_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3018B2ADEF98E00B71318 /* lion_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3018C2ADEF98E00B71318 /* lion_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C3018D2ADEF98E00B71318 /* lion_hair_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_hair_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C3018E2ADEF98E00B71318 /* lion-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "lion-cameras.scn"; sourceTree = "<group>"; };
+		B3C3018F2ADEF98E00B71318 /* lion.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.scnz; sourceTree = "<group>"; };
+		B3C301902ADEF98E00B71318 /* lion_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C301912ADEF98E00B71318 /* lion_hair_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_hair_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301922ADEF98E00B71318 /* lion_hair_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_hair_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301932ADEF98E00B71318 /* lion-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lion-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C301942ADEF98E00B71318 /* lion_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C301952ADEF98E00B71318 /* lion_hair_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_hair_AO.heic; sourceTree = "<group>"; };
+		B3C301962ADEF98E00B71318 /* lion_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C301972ADEF98E00B71318 /* lion_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion_head_AO.heic; sourceTree = "<group>"; };
+		B3C301992ADEF98E00B71318 /* shark_head_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_head_AO.heic; sourceTree = "<group>"; };
+		B3C3019A2ADEF98E00B71318 /* shark_mouth_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_mouth_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3019B2ADEF98E00B71318 /* shark-cameras.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "shark-cameras.scn"; sourceTree = "<group>"; };
+		B3C3019C2ADEF98E00B71318 /* shark_head_SPECROUGHLW.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_head_SPECROUGHLW.heic; sourceTree = "<group>"; };
+		B3C3019D2ADEF98E00B71318 /* shark_mouth_AO.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_mouth_AO.heic; sourceTree = "<group>"; };
+		B3C3019E2ADEF98E00B71318 /* shark_head_ONTOP.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_head_ONTOP.heic; sourceTree = "<group>"; };
+		B3C3019F2ADEF98E00B71318 /* shark.scnz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.scnz; sourceTree = "<group>"; };
+		B3C301A02ADEF98E00B71318 /* shark_mouth_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_mouth_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301A12ADEF98E00B71318 /* shark_head_DIFFUSE.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_head_DIFFUSE.heic; sourceTree = "<group>"; };
+		B3C301A22ADEF98E00B71318 /* shark-camera.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shark-camera.atx"; sourceTree = "<group>"; };
+		B3C301A32ADEF98E00B71318 /* shark_head_AMBIENT.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark_head_AMBIENT.heic; sourceTree = "<group>"; };
+		B3C301A42ADEF98E00B71318 /* shark-cameraGrid.atx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shark-cameraGrid.atx"; sourceTree = "<group>"; };
+		B3C3030C2ADEFB9400B71318 /* Avatar3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar3DView.swift; sourceTree = "<group>"; };
+		B3C3030E2ADEFE6300B71318 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +759,7 @@
 		B325613D2AD2E6A2002733DE = {
 			isa = PBXGroup;
 			children = (
+				B3C300212ADEF98E00B71318 /* animoji */,
 				B32561482AD2E6A2002733DE /* Neros Music */,
 				B32561472AD2E6A2002733DE /* Products */,
 			);
@@ -54,7 +779,9 @@
 				B32561492AD2E6A2002733DE /* Neros_MusicApp.swift */,
 				B325614B2AD2E6A2002733DE /* ContentView.swift */,
 				B325614D2AD2E6A3002733DE /* Assets.xcassets */,
+				B3C3030C2ADEFB9400B71318 /* Avatar3DView.swift */,
 				B325614F2AD2E6A3002733DE /* Preview Content */,
+				B3C3030E2ADEFE6300B71318 /* BottomNavBar.swift */,
 			);
 			path = "Neros Music";
 			sourceTree = "<group>";
@@ -62,9 +789,602 @@
 		B325614F2AD2E6A3002733DE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B36E06BB2ADEF4FB0048C753 /* alien.scnz */,
+				B36E06B82ADEF4D50048C753 /* alien.scn */,
 				B32561502AD2E6A3002733DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3C300212ADEF98E00B71318 /* animoji */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300222ADEF98E00B71318 /* skull */,
+				B3C300322ADEF98E00B71318 /* cat */,
+				B3C3003F2ADEF98E00B71318 /* trex */,
+				B3C3004D2ADEF98E00B71318 /* pig */,
+				B3C3005A2ADEF98E00B71318 /* dog */,
+				B3C300672ADEF98E00B71318 /* fox */,
+				B3C300732ADEF98E00B71318 /* boar */,
+				B3C300812ADEF98E00B71318 /* giraffe */,
+				B3C3008E2ADEF98E00B71318 /* bear */,
+				B3C3009B2ADEF98E00B71318 /* panda */,
+				B3C300A82ADEF98E00B71318 /* owl */,
+				B3C300B62ADEF98E00B71318 /* tiger */,
+				B3C300C22ADEF98E00B71318 /* sharedImages */,
+				B3C300CB2ADEF98E00B71318 /* alien */,
+				B3C300D42ADEF98E00B71318 /* robot */,
+				B3C300E62ADEF98E00B71318 /* ghost */,
+				B3C300F22ADEF98E00B71318 /* mouse */,
+				B3C301002ADEF98E00B71318 /* poo */,
+				B3C3010E2ADEF98E00B71318 /* dragon */,
+				B3C301212ADEF98E00B71318 /* chicken */,
+				B3C3012D2ADEF98E00B71318 /* monkey */,
+				B3C3013A2ADEF98E00B71318 /* rabbit */,
+				B3C301492ADEF98E00B71318 /* koala */,
+				B3C301562ADEF98E00B71318 /* octopus */,
+				B3C301642ADEF98E00B71318 /* environment.scn */,
+				B3C301652ADEF98E00B71318 /* unicorn */,
+				B3C3017A2ADEF98E00B71318 /* cow */,
+				B3C301872ADEF98E00B71318 /* lion */,
+				B3C301982ADEF98E00B71318 /* shark */,
+			);
+			name = animoji;
+			path = ../../Downloads/animoji;
+			sourceTree = "<group>";
+		};
+		B3C300222ADEF98E00B71318 /* skull */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300232ADEF98E00B71318 /* skull_head_SPECROUGHLW.heic */,
+				B3C300242ADEF98E00B71318 /* skull_nose_SPECROUGHLW.heic */,
+				B3C300252ADEF98E00B71318 /* skull-cameraGrid.atx */,
+				B3C300262ADEF98E00B71318 /* skull-cameras.scn */,
+				B3C300272ADEF98E00B71318 /* skull_head_ONTOP.heic */,
+				B3C300282ADEF98E00B71318 /* skull-camera.atx */,
+				B3C300292ADEF98E00B71318 /* skull_jawInsert_DIFFUSE.heic */,
+				B3C3002A2ADEF98E00B71318 /* skull_jawInsert_SPECROUGHLW.heic */,
+				B3C3002B2ADEF98E00B71318 /* skull_tongue_SPECROUGHLW.heic */,
+				B3C3002C2ADEF98E00B71318 /* skull_tongue_TRANSPARENT.heic */,
+				B3C3002D2ADEF98E00B71318 /* skull_head_AO.heic */,
+				B3C3002E2ADEF98E00B71318 /* skull_mouthbag_TRANSPARENT.heic */,
+				B3C3002F2ADEF98E00B71318 /* skull_tongue_DIFFUSE.heic */,
+				B3C300302ADEF98E00B71318 /* skull.scnz */,
+				B3C300312ADEF98E00B71318 /* skull_head_DIFFUSE.heic */,
+			);
+			path = skull;
+			sourceTree = "<group>";
+		};
+		B3C300322ADEF98E00B71318 /* cat */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300332ADEF98E00B71318 /* cat.scnz */,
+				B3C300342ADEF98E00B71318 /* cat-camera.atx */,
+				B3C300352ADEF98E00B71318 /* cat_mouth_DIFFUSE.heic */,
+				B3C300362ADEF98E00B71318 /* cat_head_SPECROUGHLW.heic */,
+				B3C300372ADEF98E00B71318 /* cat_whiskers_MASK.heic */,
+				B3C300382ADEF98E00B71318 /* cat-cameras.scn */,
+				B3C300392ADEF98E00B71318 /* cat-cameraGrid.atx */,
+				B3C3003A2ADEF98E00B71318 /* cat_head_ONTOP.heic */,
+				B3C3003B2ADEF98E00B71318 /* cat_mouth_AO.heic */,
+				B3C3003C2ADEF98E00B71318 /* cat_head_AMBIENT.heic */,
+				B3C3003D2ADEF98E00B71318 /* cat_head_AO.heic */,
+				B3C3003E2ADEF98E00B71318 /* cat_head_DIFFUSE.heic */,
+			);
+			path = cat;
+			sourceTree = "<group>";
+		};
+		B3C3003F2ADEF98E00B71318 /* trex */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300402ADEF98E00B71318 /* trex.scnz */,
+				B3C300412ADEF98E00B71318 /* trex_tongue_SPECROUGHLW.heic */,
+				B3C300422ADEF98E00B71318 /* trex_head_AO.heic */,
+				B3C300432ADEF98E00B71318 /* trex_mouth_DIFFUSE.heic */,
+				B3C300442ADEF98E00B71318 /* trex-cameraGrid.atx */,
+				B3C300452ADEF98E00B71318 /* trex_mouth_AO.heic */,
+				B3C300462ADEF98E00B71318 /* trex_head_ONTOP.heic */,
+				B3C300472ADEF98E00B71318 /* trex_head_REFLECTIVE.heic */,
+				B3C300482ADEF98E00B71318 /* trex_head_AMBIENT.heic */,
+				B3C300492ADEF98E00B71318 /* trex-camera.atx */,
+				B3C3004A2ADEF98E00B71318 /* trex_head_SPECROUGHLW.heic */,
+				B3C3004B2ADEF98E00B71318 /* trex-cameras.scn */,
+				B3C3004C2ADEF98E00B71318 /* trex_head_DIFFUSE.heic */,
+			);
+			path = trex;
+			sourceTree = "<group>";
+		};
+		B3C3004D2ADEF98E00B71318 /* pig */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3004E2ADEF98E00B71318 /* pig_mouth_DIFFUSE.heic */,
+				B3C3004F2ADEF98E00B71318 /* pig_mouth_AO.heic */,
+				B3C300502ADEF98E00B71318 /* pig_head_AMBIENT.heic */,
+				B3C300512ADEF98E00B71318 /* pig_head_DIFFUSE.heic */,
+				B3C300522ADEF98E00B71318 /* pig.scnz */,
+				B3C300532ADEF98E00B71318 /* pig-cameraGrid.atx */,
+				B3C300542ADEF98E00B71318 /* pig_head_ONTOP.heic */,
+				B3C300552ADEF98E00B71318 /* pig_tongue_SPECROUGHLW.heic */,
+				B3C300562ADEF98E00B71318 /* pig-camera.atx */,
+				B3C300572ADEF98E00B71318 /* pig-cameras.scn */,
+				B3C300582ADEF98E00B71318 /* pig_head_AO.heic */,
+				B3C300592ADEF98E00B71318 /* pig_head_SPECROUGHLW.heic */,
+			);
+			path = pig;
+			sourceTree = "<group>";
+		};
+		B3C3005A2ADEF98E00B71318 /* dog */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3005B2ADEF98E00B71318 /* dog-cameras.scn */,
+				B3C3005C2ADEF98E00B71318 /* dog_head_AMBIENT.heic */,
+				B3C3005D2ADEF98E00B71318 /* dog_head_SPECROUGHLW.heic */,
+				B3C3005E2ADEF98E00B71318 /* dog_mouth_DIFFUSE.heic */,
+				B3C3005F2ADEF98E00B71318 /* dog_head_DIFFUSE.heic */,
+				B3C300602ADEF98E00B71318 /* dog.scnz */,
+				B3C300612ADEF98E00B71318 /* dog_tongue_SPECROUGHLW.heic */,
+				B3C300622ADEF98E00B71318 /* dog_head_ONTOP.heic */,
+				B3C300632ADEF98E00B71318 /* dog-camera.atx */,
+				B3C300642ADEF98E00B71318 /* dog_head_AO.heic */,
+				B3C300652ADEF98E00B71318 /* dog_tongue_AO.heic */,
+				B3C300662ADEF98E00B71318 /* dog-cameraGrid.atx */,
+			);
+			path = dog;
+			sourceTree = "<group>";
+		};
+		B3C300672ADEF98E00B71318 /* fox */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300682ADEF98E00B71318 /* fox_head_DIFFUSE.heic */,
+				B3C300692ADEF98E00B71318 /* fox_head_ONTOP.heic */,
+				B3C3006A2ADEF98E00B71318 /* fox_head_AMBIENT.heic */,
+				B3C3006B2ADEF98E00B71318 /* fox.scnz */,
+				B3C3006C2ADEF98E00B71318 /* fox-camera.atx */,
+				B3C3006D2ADEF98E00B71318 /* fox_head_AO.heic */,
+				B3C3006E2ADEF98E00B71318 /* fox_mouth_AO.heic */,
+				B3C3006F2ADEF98E00B71318 /* fox_head_SPECROUGHLW.heic */,
+				B3C300702ADEF98E00B71318 /* fox_mouth_DIFFUSE.heic */,
+				B3C300712ADEF98E00B71318 /* fox-cameras.scn */,
+				B3C300722ADEF98E00B71318 /* fox-cameraGrid.atx */,
+			);
+			path = fox;
+			sourceTree = "<group>";
+		};
+		B3C300732ADEF98E00B71318 /* boar */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300742ADEF98E00B71318 /* boar_head_AMBIENT.heic */,
+				B3C300752ADEF98E00B71318 /* boar_head_DIFFUSE.heic */,
+				B3C300762ADEF98E00B71318 /* boar_head_AO.heic */,
+				B3C300772ADEF98E00B71318 /* boar_head_ONTOP.heic */,
+				B3C300782ADEF98E00B71318 /* boar-cameras.scn */,
+				B3C300792ADEF98E00B71318 /* boar_head_SPECROUGHLW.heic */,
+				B3C3007A2ADEF98E00B71318 /* boar_mouth_AMBIENT.heic */,
+				B3C3007B2ADEF98E00B71318 /* boar_mouth_DIFFUSE.heic */,
+				B3C3007C2ADEF98E00B71318 /* boar_mouth_SPECROUGHLW.heic */,
+				B3C3007D2ADEF98E00B71318 /* boar_mouth_AO.heic */,
+				B3C3007E2ADEF98E00B71318 /* boar.scnz */,
+				B3C3007F2ADEF98E00B71318 /* boar-camera.atx */,
+				B3C300802ADEF98E00B71318 /* boar-cameraGrid.atx */,
+			);
+			path = boar;
+			sourceTree = "<group>";
+		};
+		B3C300812ADEF98E00B71318 /* giraffe */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300822ADEF98E00B71318 /* giraffe_head_ONTOP.heic */,
+				B3C300832ADEF98E00B71318 /* giraffe_head_AMBIENT.heic */,
+				B3C300842ADEF98E00B71318 /* giraffe_head_DIFFUSE.heic */,
+				B3C300852ADEF98E00B71318 /* giraffe-cameraGrid.atx */,
+				B3C300862ADEF98E00B71318 /* giraffe_mouth_AO.heic */,
+				B3C300872ADEF98E00B71318 /* giraffe-cameras.scn */,
+				B3C300882ADEF98E00B71318 /* giraffe_head_SPECROUGHLW.heic */,
+				B3C300892ADEF98E00B71318 /* giraffe_head_AO.heic */,
+				B3C3008A2ADEF98E00B71318 /* giraffe_mouth_SPECROUGHLW.heic */,
+				B3C3008B2ADEF98E00B71318 /* giraffe.scnz */,
+				B3C3008C2ADEF98E00B71318 /* giraffe-camera.atx */,
+				B3C3008D2ADEF98E00B71318 /* giraffe_mouth_DIFFUSE.heic */,
+			);
+			path = giraffe;
+			sourceTree = "<group>";
+		};
+		B3C3008E2ADEF98E00B71318 /* bear */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3008F2ADEF98E00B71318 /* bear-cameras.scn */,
+				B3C300902ADEF98E00B71318 /* bear_mouth_AO.heic */,
+				B3C300912ADEF98E00B71318 /* bear_head_AO.heic */,
+				B3C300922ADEF98E00B71318 /* bear_head_AMBIENT.heic */,
+				B3C300932ADEF98E00B71318 /* bear_head_DIFFUSE.heic */,
+				B3C300942ADEF98E00B71318 /* bear.scnz */,
+				B3C300952ADEF98E00B71318 /* bear-camera.atx */,
+				B3C300962ADEF98E00B71318 /* bear-cameraGrid.atx */,
+				B3C300972ADEF98E00B71318 /* bear_head_ONTOP.heic */,
+				B3C300982ADEF98E00B71318 /* bear_mouth_DIFFUSE.heic */,
+				B3C300992ADEF98E00B71318 /* bear_head_SPECCOLOUR.heic */,
+				B3C3009A2ADEF98E00B71318 /* bear_head_SPECROUGHLW.heic */,
+			);
+			path = bear;
+			sourceTree = "<group>";
+		};
+		B3C3009B2ADEF98E00B71318 /* panda */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3009C2ADEF98E00B71318 /* panda-camera.atx */,
+				B3C3009D2ADEF98E00B71318 /* panda.scnz */,
+				B3C3009E2ADEF98E00B71318 /* panda_head_SPECROUGHLW.heic */,
+				B3C3009F2ADEF98E00B71318 /* panda_head_DIFFUSE.heic */,
+				B3C300A02ADEF98E00B71318 /* panda-cameras.scn */,
+				B3C300A12ADEF98E00B71318 /* panda_head_AMBIENT.heic */,
+				B3C300A22ADEF98E00B71318 /* panda_mouth_AO.heic */,
+				B3C300A32ADEF98E00B71318 /* panda_tongue_SPECROUGHLW.heic */,
+				B3C300A42ADEF98E00B71318 /* panda_mouth_DIFFUSE.heic */,
+				B3C300A52ADEF98E00B71318 /* panda-cameraGrid.atx */,
+				B3C300A62ADEF98E00B71318 /* panda_head_AO.heic */,
+				B3C300A72ADEF98E00B71318 /* panda_head_ONTOP.heic */,
+			);
+			path = panda;
+			sourceTree = "<group>";
+		};
+		B3C300A82ADEF98E00B71318 /* owl */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300A92ADEF98E00B71318 /* owl_head_DIFFUSE.heic */,
+				B3C300AA2ADEF98E00B71318 /* owl_head_AMBIENT.heic */,
+				B3C300AB2ADEF98E00B71318 /* owl_head_SPECROUGHLW.heic */,
+				B3C300AC2ADEF98E00B71318 /* owl_mouth_DIFFUSE.heic */,
+				B3C300AD2ADEF98E00B71318 /* owl-cameras.scn */,
+				B3C300AE2ADEF98E00B71318 /* owl-cameraGrid.atx */,
+				B3C300AF2ADEF98E00B71318 /* owl_head_ONTOP.heic */,
+				B3C300B02ADEF98E00B71318 /* owl_head_AO.heic */,
+				B3C300B12ADEF98E00B71318 /* owl-camera.atx */,
+				B3C300B22ADEF98E00B71318 /* owl_eyes_DIFFUSE.heic */,
+				B3C300B32ADEF98E00B71318 /* owl_mouth_AO.heic */,
+				B3C300B42ADEF98E00B71318 /* owl.scnz */,
+				B3C300B52ADEF98E00B71318 /* owl_mouth_SPECROUGHLW.heic */,
+			);
+			path = owl;
+			sourceTree = "<group>";
+		};
+		B3C300B62ADEF98E00B71318 /* tiger */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300B72ADEF98E00B71318 /* tiger_head_DIFFUSE.heic */,
+				B3C300B82ADEF98E00B71318 /* tiger_head_AMBIENT.heic */,
+				B3C300B92ADEF98E00B71318 /* tiger-cameras.scn */,
+				B3C300BA2ADEF98E00B71318 /* tiger_head_SPECROUGHLW.heic */,
+				B3C300BB2ADEF98E00B71318 /* tiger_head_AO.heic */,
+				B3C300BC2ADEF98E00B71318 /* tiger.scnz */,
+				B3C300BD2ADEF98E00B71318 /* tiger_head_ONTOP.heic */,
+				B3C300BE2ADEF98E00B71318 /* tiger-cameraGrid.atx */,
+				B3C300BF2ADEF98E00B71318 /* tiger_mouth_DIFFUSE.heic */,
+				B3C300C02ADEF98E00B71318 /* tiger-camera.atx */,
+				B3C300C12ADEF98E00B71318 /* tiger_mouth_AO.heic */,
+			);
+			path = tiger;
+			sourceTree = "<group>";
+		};
+		B3C300C22ADEF98E00B71318 /* sharedImages */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300C32ADEF98E00B71318 /* mouth_AO.heic */,
+				B3C300C42ADEF98E00B71318 /* white.heic */,
+				B3C300C52ADEF98E00B71318 /* mouth_DIFFUSE.heic */,
+				B3C300C62ADEF98E00B71318 /* eye_uvs_REFLECTIVE_occlusion.heic */,
+				B3C300C72ADEF98E00B71318 /* tongue_SPECROUGHLW.heic */,
+				B3C300C82ADEF98E00B71318 /* eye_uvs_REFLECTIVE_front.heic */,
+				B3C300C92ADEF98E00B71318 /* black.heic */,
+				B3C300CA2ADEF98E00B71318 /* eye_uvs_REFLECTIVE_back.heic */,
+			);
+			path = sharedImages;
+			sourceTree = "<group>";
+		};
+		B3C300CB2ADEF98E00B71318 /* alien */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300CC2ADEF98E00B71318 /* alien.scnz */,
+				B3C300CD2ADEF98E00B71318 /* alien-camera.atx */,
+				B3C300CE2ADEF98E00B71318 /* alien_head_AO.heic */,
+				B3C300CF2ADEF98E00B71318 /* alien-cameras.scn */,
+				B3C300D02ADEF98E00B71318 /* alien_head_DIFFUSE.heic */,
+				B3C300D12ADEF98E00B71318 /* alien_head_SPECROUGHLW.heic */,
+				B3C300D22ADEF98E00B71318 /* alien-cameraGrid.atx */,
+				B3C300D32ADEF98E00B71318 /* alien_head_ONTOP.heic */,
+			);
+			path = alien;
+			sourceTree = "<group>";
+		};
+		B3C300D42ADEF98E00B71318 /* robot */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300D52ADEF98E00B71318 /* robot_eyeShadow_RAMP.heic */,
+				B3C300D62ADEF98E00B71318 /* robot-cameraGrid.atx */,
+				B3C300D72ADEF98E00B71318 /* robot_head_ONTOP.heic */,
+				B3C300D82ADEF98E00B71318 /* robot_noseShadow_RAMP.heic */,
+				B3C300D92ADEF98E00B71318 /* robot_head_DIFFUSE.heic */,
+				B3C300DA2ADEF98E00B71318 /* robot-camera.atx */,
+				B3C300DB2ADEF98E00B71318 /* robot_head_AMBIENT.heic */,
+				B3C300DC2ADEF98E00B71318 /* robot_tongue_REFLECTION.heic */,
+				B3C300DD2ADEF98E00B71318 /* robot_tongue_DIFFUSE.heic */,
+				B3C300DE2ADEF98E00B71318 /* robot_head_AO.heic */,
+				B3C300DF2ADEF98E00B71318 /* robot_head_RAMP.heic */,
+				B3C300E02ADEF98E00B71318 /* robot_red.heic */,
+				B3C300E12ADEF98E00B71318 /* robot_head_SPECROUGHLW.heic */,
+				B3C300E22ADEF98E00B71318 /* robot_tongue_SPECROUGHLW.heic */,
+				B3C300E32ADEF98E00B71318 /* robot_bulb_REFLECTION.heic */,
+				B3C300E42ADEF98E00B71318 /* robot.scnz */,
+				B3C300E52ADEF98E00B71318 /* robot-cameras.scn */,
+			);
+			path = robot;
+			sourceTree = "<group>";
+		};
+		B3C300E62ADEF98E00B71318 /* ghost */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300E72ADEF98E00B71318 /* ghost_mouth_AO.heic */,
+				B3C300E82ADEF98E00B71318 /* ghost-cameraGrid.atx */,
+				B3C300E92ADEF98E00B71318 /* ghost-cameras.scn */,
+				B3C300EA2ADEF98E00B71318 /* ghost_mouth_DIFFUSE.heic */,
+				B3C300EB2ADEF98E00B71318 /* ghost_head_AMBIENT.heic */,
+				B3C300EC2ADEF98E00B71318 /* ghost_head_ONTOP.heic */,
+				B3C300ED2ADEF98E00B71318 /* ghost-camera.atx */,
+				B3C300EE2ADEF98E00B71318 /* ghost_head_DIFFUSE.heic */,
+				B3C300EF2ADEF98E00B71318 /* ghost.scnz */,
+				B3C300F02ADEF98E00B71318 /* ghost_mouth_SPECULAR.heic */,
+				B3C300F12ADEF98E00B71318 /* ghost_head_SPECROUGHLW.heic */,
+			);
+			path = ghost;
+			sourceTree = "<group>";
+		};
+		B3C300F22ADEF98E00B71318 /* mouse */ = {
+			isa = PBXGroup;
+			children = (
+				B3C300F32ADEF98E00B71318 /* mouse_head_SPECROUGHLW.heic */,
+				B3C300F42ADEF98E00B71318 /* mouse_whiskers_MASK.heic */,
+				B3C300F52ADEF98E00B71318 /* mouse_mouth_SPECROUGHLW.heic */,
+				B3C300F62ADEF98E00B71318 /* mouse-cameraGrid.atx */,
+				B3C300F72ADEF98E00B71318 /* mouse_mouth_AO.heic */,
+				B3C300F82ADEF98E00B71318 /* mouse-camera.atx */,
+				B3C300F92ADEF98E00B71318 /* mouse_mouth_DIFFUSE.heic */,
+				B3C300FA2ADEF98E00B71318 /* mouse.scnz */,
+				B3C300FB2ADEF98E00B71318 /* mouse_head_AO.heic */,
+				B3C300FC2ADEF98E00B71318 /* mouse_head_AMBIENT.heic */,
+				B3C300FD2ADEF98E00B71318 /* mouse_head_ONTOP.heic */,
+				B3C300FE2ADEF98E00B71318 /* mouse_head_DIFFUSE.heic */,
+				B3C300FF2ADEF98E00B71318 /* mouse-cameras.scn */,
+			);
+			path = mouse;
+			sourceTree = "<group>";
+		};
+		B3C301002ADEF98E00B71318 /* poo */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301012ADEF98E00B71318 /* poo_tongue_DIFFUSE.heic */,
+				B3C301022ADEF98E00B71318 /* poo_tongue_SPECROUGHLW.heic */,
+				B3C301032ADEF98E00B71318 /* poo_tongue_TRANSPARENT.heic */,
+				B3C301042ADEF98E00B71318 /* poo_body_DIFFUSE.heic */,
+				B3C301052ADEF98E00B71318 /* poo_body_AO.heic */,
+				B3C301062ADEF98E00B71318 /* poo-cameras.scn */,
+				B3C301072ADEF98E00B71318 /* poo_body_AMBIENT.heic */,
+				B3C301082ADEF98E00B71318 /* poo_eye_DIFFUSE.heic */,
+				B3C301092ADEF98E00B71318 /* poo-camera.atx */,
+				B3C3010A2ADEF98E00B71318 /* poo.scnz */,
+				B3C3010B2ADEF98E00B71318 /* poo_body_SPECROUGHLW.heic */,
+				B3C3010C2ADEF98E00B71318 /* poo-cameraGrid.atx */,
+				B3C3010D2ADEF98E00B71318 /* poo_body_ONTOP.heic */,
+			);
+			path = poo;
+			sourceTree = "<group>";
+		};
+		B3C3010E2ADEF98E00B71318 /* dragon */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3010F2ADEF98E00B71318 /* dragon_mouth_DIFFUSE.heic */,
+				B3C301102ADEF98E00B71318 /* dragon_eye_REFLECTIVE_front.heic */,
+				B3C301112ADEF98E00B71318 /* dragon_head_ONTOP.heic */,
+				B3C301122ADEF98E00B71318 /* dragon_head_SPECROUGHLW.heic */,
+				B3C301132ADEF98E00B71318 /* dragon_mouth_AO.heic */,
+				B3C301142ADEF98E00B71318 /* dragon_tongue_SPECROUGHLW.heic */,
+				B3C301152ADEF98E00B71318 /* dragon_face_AMBIENT.heic */,
+				B3C301162ADEF98E00B71318 /* dragon_face_AO.heic */,
+				B3C301172ADEF98E00B71318 /* dragon_face_DIFFUSE.heic */,
+				B3C301182ADEF98E00B71318 /* dragon.scnz */,
+				B3C301192ADEF98E00B71318 /* dragon_head_AO.heic */,
+				B3C3011A2ADEF98E00B71318 /* dragon-camera.atx */,
+				B3C3011B2ADEF98E00B71318 /* dragon_head_AMBIENT.heic */,
+				B3C3011C2ADEF98E00B71318 /* dragon_eye_REFLECTIVE_back.heic */,
+				B3C3011D2ADEF98E00B71318 /* dragon_head_DIFFUSE.heic */,
+				B3C3011E2ADEF98E00B71318 /* dragon-cameras.scn */,
+				B3C3011F2ADEF98E00B71318 /* dragon-cameraGrid.atx */,
+				B3C301202ADEF98E00B71318 /* dragon_face_SPECROUGHLW.heic */,
+			);
+			path = dragon;
+			sourceTree = "<group>";
+		};
+		B3C301212ADEF98E00B71318 /* chicken */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301222ADEF98E00B71318 /* chicken_head_ONTOP.heic */,
+				B3C301232ADEF98E00B71318 /* chicken_head_DIFFUSE.heic */,
+				B3C301242ADEF98E00B71318 /* chicken-camera.atx */,
+				B3C301252ADEF98E00B71318 /* chicken_head_AO.heic */,
+				B3C301262ADEF98E00B71318 /* chicken_head_AMBIENT.heic */,
+				B3C301272ADEF98E00B71318 /* chicken_tongue_DIFFUSE.heic */,
+				B3C301282ADEF98E00B71318 /* chicken-cameras.scn */,
+				B3C301292ADEF98E00B71318 /* chicken.scnz */,
+				B3C3012A2ADEF98E00B71318 /* chicken-cameraGrid.atx */,
+				B3C3012B2ADEF98E00B71318 /* chicken_tongue_AO.heic */,
+				B3C3012C2ADEF98E00B71318 /* chicken_head_SPECROUGHLW.heic */,
+			);
+			path = chicken;
+			sourceTree = "<group>";
+		};
+		B3C3012D2ADEF98E00B71318 /* monkey */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3012E2ADEF98E00B71318 /* monkey-cameras.scn */,
+				B3C3012F2ADEF98E00B71318 /* monkey_head_ONTOP.heic */,
+				B3C301302ADEF98E00B71318 /* monkey-cameraGrid.atx */,
+				B3C301312ADEF98E00B71318 /* monkey_mouth_DIFFUSE.heic */,
+				B3C301322ADEF98E00B71318 /* monkey-camera.atx */,
+				B3C301332ADEF98E00B71318 /* monkey_head_AO.heic */,
+				B3C301342ADEF98E00B71318 /* monkey_mouth_AO.heic */,
+				B3C301352ADEF98E00B71318 /* monkey_head_SPECROUGHLW.heic */,
+				B3C301362ADEF98E00B71318 /* monkey_head_DIFFUSE.heic */,
+				B3C301372ADEF98E00B71318 /* monkey_tongue_SPECROUGHLW.heic */,
+				B3C301382ADEF98E00B71318 /* monkey_head_AMBIENT.heic */,
+				B3C301392ADEF98E00B71318 /* monkey.scnz */,
+			);
+			path = monkey;
+			sourceTree = "<group>";
+		};
+		B3C3013A2ADEF98E00B71318 /* rabbit */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3013B2ADEF98E00B71318 /* rabbit_head_ONTOP.heic */,
+				B3C3013C2ADEF98E00B71318 /* rabbit_mouth_AMBIENT.heic */,
+				B3C3013D2ADEF98E00B71318 /* rabbit_head_AO.heic */,
+				B3C3013E2ADEF98E00B71318 /* rabbit_mouth_DIFFUSE.heic */,
+				B3C3013F2ADEF98E00B71318 /* rabbit.scnz */,
+				B3C301402ADEF98E00B71318 /* rabbit_tongue_SPECROUGHLW.heic */,
+				B3C301412ADEF98E00B71318 /* rabbit_whiskers_MASK.heic */,
+				B3C301422ADEF98E00B71318 /* rabbit_head_SPECROUGHLW.heic */,
+				B3C301432ADEF98E00B71318 /* rabbit-cameras.scn */,
+				B3C301442ADEF98E00B71318 /* rabbit-cameraGrid.atx */,
+				B3C301452ADEF98E00B71318 /* rabbit-camera.atx */,
+				B3C301462ADEF98E00B71318 /* rabbit_head_AMBIENT.heic */,
+				B3C301472ADEF98E00B71318 /* rabbit_mouth_AO.heic */,
+				B3C301482ADEF98E00B71318 /* rabbit_head_DIFFUSE.heic */,
+			);
+			path = rabbit;
+			sourceTree = "<group>";
+		};
+		B3C301492ADEF98E00B71318 /* koala */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3014A2ADEF98E00B71318 /* koala_mouth_DIFFUSE.heic */,
+				B3C3014B2ADEF98E00B71318 /* koala_mouth_AMBIENT.heic */,
+				B3C3014C2ADEF98E00B71318 /* koala_head_AO.heic */,
+				B3C3014D2ADEF98E00B71318 /* koala.scnz */,
+				B3C3014E2ADEF98E00B71318 /* koala-camera.atx */,
+				B3C3014F2ADEF98E00B71318 /* koala-cameraGrid.atx */,
+				B3C301502ADEF98E00B71318 /* koala_head_ONTOP.heic */,
+				B3C301512ADEF98E00B71318 /* koala-cameras.scn */,
+				B3C301522ADEF98E00B71318 /* koala_mouth_AO.heic */,
+				B3C301532ADEF98E00B71318 /* koala_head_DIFFUSE.heic */,
+				B3C301542ADEF98E00B71318 /* koala_head_SPECROUGHLW.heic */,
+				B3C301552ADEF98E00B71318 /* koala_head_AMBIENT.heic */,
+			);
+			path = koala;
+			sourceTree = "<group>";
+		};
+		B3C301562ADEF98E00B71318 /* octopus */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301572ADEF98E00B71318 /* octopus_mouth_DIFFUSE.heic */,
+				B3C301582ADEF98E00B71318 /* octopus.scnz */,
+				B3C301592ADEF98E00B71318 /* octopus_head_DIFFUSE.heic */,
+				B3C3015A2ADEF98E00B71318 /* octopus_head_AMBIENT.heic */,
+				B3C3015B2ADEF98E00B71318 /* octopus_head_REFLECTIVE.heic */,
+				B3C3015C2ADEF98E00B71318 /* octopus-cameraGrid.atx */,
+				B3C3015D2ADEF98E00B71318 /* octopus-camera.atx */,
+				B3C3015E2ADEF98E00B71318 /* octopus_mouth_SPECROUGHLW.heic */,
+				B3C3015F2ADEF98E00B71318 /* octopus_head_AO.heic */,
+				B3C301602ADEF98E00B71318 /* octopus_head_ONTOP.heic */,
+				B3C301612ADEF98E00B71318 /* octopus_head_SPECROUGHLW.heic */,
+				B3C301622ADEF98E00B71318 /* octopus-cameras.scn */,
+				B3C301632ADEF98E00B71318 /* octopus_mouth_AO.heic */,
+			);
+			path = octopus;
+			sourceTree = "<group>";
+		};
+		B3C301652ADEF98E00B71318 /* unicorn */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301662ADEF98E00B71318 /* unicorn_head_DIFFUSE.heic */,
+				B3C301672ADEF98E00B71318 /* unicorn_head_AO.heic */,
+				B3C301682ADEF98E00B71318 /* unicorn_mane_DIFFUSE.heic */,
+				B3C301692ADEF98E00B71318 /* unicorn_mane_ONTOP.heic */,
+				B3C3016A2ADEF98E00B71318 /* unicorn_mouth_DIFFUSE.heic */,
+				B3C3016B2ADEF98E00B71318 /* unicorn_head_AMBIENT.heic */,
+				B3C3016C2ADEF98E00B71318 /* unicorn_mane_AMBIENT.heic */,
+				B3C3016D2ADEF98E00B71318 /* unicorn_mouth_AO.heic */,
+				B3C3016E2ADEF98E00B71318 /* unicorn_horn_AO.heic */,
+				B3C3016F2ADEF98E00B71318 /* unicorn_mane_AO.heic */,
+				B3C301702ADEF98E00B71318 /* unicorn_mane_SPECULAR.heic */,
+				B3C301712ADEF98E00B71318 /* unicorn_head_SPECULAR.heic */,
+				B3C301722ADEF98E00B71318 /* unicorn_tongue_SPECROUGHLW.heic */,
+				B3C301732ADEF98E00B71318 /* unicorn-camera.atx */,
+				B3C301742ADEF98E00B71318 /* unicorn_horn_EMISSION.heic */,
+				B3C301752ADEF98E00B71318 /* unicorn-cameras.scn */,
+				B3C301762ADEF98E00B71318 /* unicorn-cameraGrid.atx */,
+				B3C301772ADEF98E00B71318 /* unicorn.scnz */,
+				B3C301782ADEF98E00B71318 /* unicorn_horn_SPECULAR.heic */,
+				B3C301792ADEF98E00B71318 /* unicorn_head_ONTOP.heic */,
+			);
+			path = unicorn;
+			sourceTree = "<group>";
+		};
+		B3C3017A2ADEF98E00B71318 /* cow */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3017B2ADEF98E00B71318 /* cow_mouth_DIFFUSE.heic */,
+				B3C3017C2ADEF98E00B71318 /* cow_head_ONTOP.heic */,
+				B3C3017D2ADEF98E00B71318 /* cow.scnz */,
+				B3C3017E2ADEF98E00B71318 /* cow-camera.atx */,
+				B3C3017F2ADEF98E00B71318 /* cow_head_AO.heic */,
+				B3C301802ADEF98E00B71318 /* cow-cameras.scn */,
+				B3C301812ADEF98E00B71318 /* cow_head_AMBIENT.heic */,
+				B3C301822ADEF98E00B71318 /* cow-cameraGrid.atx */,
+				B3C301832ADEF98E00B71318 /* cow_head_DIFFUSE.heic */,
+				B3C301842ADEF98E00B71318 /* cow_mouth_AO.heic */,
+				B3C301852ADEF98E00B71318 /* cow_mouth_SPECROUGHLW.heic */,
+				B3C301862ADEF98E00B71318 /* cow_head_SPECROUGHLW.heic */,
+			);
+			path = cow;
+			sourceTree = "<group>";
+		};
+		B3C301872ADEF98E00B71318 /* lion */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301882ADEF98E00B71318 /* lion_hair_ONTOP.heic */,
+				B3C301892ADEF98E00B71318 /* lion-camera.atx */,
+				B3C3018A2ADEF98E00B71318 /* lion_head_AMBIENT.heic */,
+				B3C3018B2ADEF98E00B71318 /* lion_mouth_DIFFUSE.heic */,
+				B3C3018C2ADEF98E00B71318 /* lion_head_DIFFUSE.heic */,
+				B3C3018D2ADEF98E00B71318 /* lion_hair_AMBIENT.heic */,
+				B3C3018E2ADEF98E00B71318 /* lion-cameras.scn */,
+				B3C3018F2ADEF98E00B71318 /* lion.scnz */,
+				B3C301902ADEF98E00B71318 /* lion_head_ONTOP.heic */,
+				B3C301912ADEF98E00B71318 /* lion_hair_SPECROUGHLW.heic */,
+				B3C301922ADEF98E00B71318 /* lion_hair_DIFFUSE.heic */,
+				B3C301932ADEF98E00B71318 /* lion-cameraGrid.atx */,
+				B3C301942ADEF98E00B71318 /* lion_mouth_AO.heic */,
+				B3C301952ADEF98E00B71318 /* lion_hair_AO.heic */,
+				B3C301962ADEF98E00B71318 /* lion_head_SPECROUGHLW.heic */,
+				B3C301972ADEF98E00B71318 /* lion_head_AO.heic */,
+			);
+			path = lion;
+			sourceTree = "<group>";
+		};
+		B3C301982ADEF98E00B71318 /* shark */ = {
+			isa = PBXGroup;
+			children = (
+				B3C301992ADEF98E00B71318 /* shark_head_AO.heic */,
+				B3C3019A2ADEF98E00B71318 /* shark_mouth_SPECROUGHLW.heic */,
+				B3C3019B2ADEF98E00B71318 /* shark-cameras.scn */,
+				B3C3019C2ADEF98E00B71318 /* shark_head_SPECROUGHLW.heic */,
+				B3C3019D2ADEF98E00B71318 /* shark_mouth_AO.heic */,
+				B3C3019E2ADEF98E00B71318 /* shark_head_ONTOP.heic */,
+				B3C3019F2ADEF98E00B71318 /* shark.scnz */,
+				B3C301A02ADEF98E00B71318 /* shark_mouth_DIFFUSE.heic */,
+				B3C301A12ADEF98E00B71318 /* shark_head_DIFFUSE.heic */,
+				B3C301A22ADEF98E00B71318 /* shark-camera.atx */,
+				B3C301A32ADEF98E00B71318 /* shark_head_AMBIENT.heic */,
+				B3C301A42ADEF98E00B71318 /* shark-cameraGrid.atx */,
+			);
+			path = shark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +1445,367 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C302752ADEF98F00B71318 /* poo_body_DIFFUSE.heic in Resources */,
+				B3C302052ADEF98E00B71318 /* giraffe_mouth_SPECROUGHLW.heic in Resources */,
+				B3C301B02ADEF98E00B71318 /* skull_mouthbag_TRANSPARENT.heic in Resources */,
+				B3C302A52ADEF98F00B71318 /* monkey_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302E32ADEF98F00B71318 /* unicorn_head_ONTOP.heic in Resources */,
+				B3C301BD2ADEF98E00B71318 /* cat_head_AMBIENT.heic in Resources */,
+				B3C302262ADEF98F00B71318 /* owl-cameraGrid.atx in Resources */,
+				B3C3030B2ADEF98F00B71318 /* shark-cameraGrid.atx in Resources */,
+				B3C3027A2ADEF98F00B71318 /* poo-camera.atx in Resources */,
+				B3C302272ADEF98F00B71318 /* owl_head_ONTOP.heic in Resources */,
+				B3C302A92ADEF98F00B71318 /* rabbit_mouth_AMBIENT.heic in Resources */,
+				B3C302F72ADEF98F00B71318 /* lion.scnz in Resources */,
+				B3C302DD2ADEF98F00B71318 /* unicorn-camera.atx in Resources */,
+				B3C3020F2ADEF98F00B71318 /* bear-camera.atx in Resources */,
+				B3C3024D2ADEF98F00B71318 /* robot_head_DIFFUSE.heic in Resources */,
+				B3C302022ADEF98E00B71318 /* giraffe-cameras.scn in Resources */,
+				B3C301EF2ADEF98E00B71318 /* fox-cameraGrid.atx in Resources */,
+				B3C302D32ADEF98F00B71318 /* unicorn_mane_ONTOP.heic in Resources */,
+				B3C302542ADEF98F00B71318 /* robot_red.heic in Resources */,
+				B3C301F32ADEF98E00B71318 /* boar_head_ONTOP.heic in Resources */,
+				B3C301B22ADEF98E00B71318 /* skull.scnz in Resources */,
+				B3C301D72ADEF98E00B71318 /* pig_head_AO.heic in Resources */,
+				B3C302122ADEF98F00B71318 /* bear_mouth_DIFFUSE.heic in Resources */,
+				B3C301F82ADEF98E00B71318 /* boar_mouth_SPECROUGHLW.heic in Resources */,
+				B3C302392ADEF98F00B71318 /* mouth_AO.heic in Resources */,
+				B3C301D42ADEF98E00B71318 /* pig_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302712ADEF98F00B71318 /* mouse-cameras.scn in Resources */,
+				B3C3023B2ADEF98F00B71318 /* mouth_DIFFUSE.heic in Resources */,
+				B3C301FC2ADEF98E00B71318 /* boar-cameraGrid.atx in Resources */,
+				B3C3025E2ADEF98F00B71318 /* ghost_head_AMBIENT.heic in Resources */,
+				B3C301B12ADEF98E00B71318 /* skull_tongue_DIFFUSE.heic in Resources */,
+				B3C302E12ADEF98F00B71318 /* unicorn.scnz in Resources */,
+				B3C301FA2ADEF98E00B71318 /* boar.scnz in Resources */,
+				B3C302782ADEF98F00B71318 /* poo_body_AMBIENT.heic in Resources */,
+				B3C302FF2ADEF98F00B71318 /* lion_head_AO.heic in Resources */,
+				B3C301E02ADEF98E00B71318 /* dog_head_ONTOP.heic in Resources */,
+				B3C301D32ADEF98E00B71318 /* pig_head_ONTOP.heic in Resources */,
+				B3C302302ADEF98F00B71318 /* tiger-cameras.scn in Resources */,
+				B3C301B82ADEF98E00B71318 /* cat_whiskers_MASK.heic in Resources */,
+				B3C3025C2ADEF98F00B71318 /* ghost-cameras.scn in Resources */,
+				B3C302402ADEF98F00B71318 /* eye_uvs_REFLECTIVE_back.heic in Resources */,
+				B3C301E92ADEF98E00B71318 /* fox-camera.atx in Resources */,
+				B3C302172ADEF98F00B71318 /* panda_head_SPECROUGHLW.heic in Resources */,
+				B3C302572ADEF98F00B71318 /* robot_bulb_REFLECTION.heic in Resources */,
+				B3C3026E2ADEF98F00B71318 /* mouse_head_AMBIENT.heic in Resources */,
+				B3C301D52ADEF98E00B71318 /* pig-camera.atx in Resources */,
+				B3C302BD2ADEF98F00B71318 /* koala-cameras.scn in Resources */,
+				B3C302562ADEF98F00B71318 /* robot_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302DE2ADEF98F00B71318 /* unicorn_horn_EMISSION.heic in Resources */,
+				B3C3021C2ADEF98F00B71318 /* panda_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302C92ADEF98F00B71318 /* octopus_mouth_SPECROUGHLW.heic in Resources */,
+				B3C3027C2ADEF98F00B71318 /* poo_body_SPECROUGHLW.heic in Resources */,
+				B3C302852ADEF98F00B71318 /* dragon_face_AMBIENT.heic in Resources */,
+				B3C3023A2ADEF98F00B71318 /* white.heic in Resources */,
+				B3C301EE2ADEF98E00B71318 /* fox-cameras.scn in Resources */,
+				B3C3020B2ADEF98F00B71318 /* bear_head_AO.heic in Resources */,
+				B3C302E62ADEF98F00B71318 /* cow.scnz in Resources */,
+				B3C302FA2ADEF98F00B71318 /* lion_hair_DIFFUSE.heic in Resources */,
+				B3C302AF2ADEF98F00B71318 /* rabbit_head_SPECROUGHLW.heic in Resources */,
+				B3C302552ADEF98F00B71318 /* robot_head_SPECROUGHLW.heic in Resources */,
+				B3C301BF2ADEF98E00B71318 /* cat_head_DIFFUSE.heic in Resources */,
+				B3C302F42ADEF98F00B71318 /* lion_head_DIFFUSE.heic in Resources */,
+				B3C302FB2ADEF98F00B71318 /* lion-cameraGrid.atx in Resources */,
+				B3C302912ADEF98F00B71318 /* chicken_head_ONTOP.heic in Resources */,
+				B3C302CE2ADEF98F00B71318 /* octopus_mouth_AO.heic in Resources */,
+				B3C302D52ADEF98F00B71318 /* unicorn_head_AMBIENT.heic in Resources */,
+				B3C302E82ADEF98F00B71318 /* cow_head_AO.heic in Resources */,
+				B3C301B32ADEF98E00B71318 /* skull_head_DIFFUSE.heic in Resources */,
+				B3C3029C2ADEF98F00B71318 /* monkey-cameras.scn in Resources */,
+				B3C302F22ADEF98F00B71318 /* lion_head_AMBIENT.heic in Resources */,
+				B3C301C52ADEF98E00B71318 /* trex_mouth_AO.heic in Resources */,
 				B32561512AD2E6A3002733DE /* Preview Assets.xcassets in Resources */,
+				B3C302602ADEF98F00B71318 /* ghost-camera.atx in Resources */,
+				B3C302AE2ADEF98F00B71318 /* rabbit_whiskers_MASK.heic in Resources */,
+				B3C3028B2ADEF98F00B71318 /* dragon_head_AMBIENT.heic in Resources */,
+				B3C303042ADEF98F00B71318 /* shark_mouth_AO.heic in Resources */,
+				B3C301A92ADEF98E00B71318 /* skull_head_ONTOP.heic in Resources */,
+				B3C302BF2ADEF98F00B71318 /* koala_head_DIFFUSE.heic in Resources */,
+				B3C3022E2ADEF98F00B71318 /* tiger_head_DIFFUSE.heic in Resources */,
+				B3C302E42ADEF98F00B71318 /* cow_mouth_DIFFUSE.heic in Resources */,
+				B3C302C12ADEF98F00B71318 /* koala_head_AMBIENT.heic in Resources */,
+				B3C302B52ADEF98F00B71318 /* rabbit_head_DIFFUSE.heic in Resources */,
+				B3C302192ADEF98F00B71318 /* panda-cameras.scn in Resources */,
+				B3C302462ADEF98F00B71318 /* alien_head_SPECROUGHLW.heic in Resources */,
+				B3C301DE2ADEF98E00B71318 /* dog.scnz in Resources */,
+				B3C302742ADEF98F00B71318 /* poo_tongue_TRANSPARENT.heic in Resources */,
+				B3C301C92ADEF98E00B71318 /* trex-camera.atx in Resources */,
+				B3C3022B2ADEF98F00B71318 /* owl_mouth_AO.heic in Resources */,
+				B3C302702ADEF98F00B71318 /* mouse_head_DIFFUSE.heic in Resources */,
+				B3C3026A2ADEF98F00B71318 /* mouse-camera.atx in Resources */,
+				B3C302342ADEF98F00B71318 /* tiger_head_ONTOP.heic in Resources */,
+				B3C302982ADEF98F00B71318 /* chicken.scnz in Resources */,
+				B3C303032ADEF98F00B71318 /* shark_head_SPECROUGHLW.heic in Resources */,
+				B3C302422ADEF98F00B71318 /* alien-camera.atx in Resources */,
+				B3C3028F2ADEF98F00B71318 /* dragon-cameraGrid.atx in Resources */,
+				B3C301BC2ADEF98E00B71318 /* cat_mouth_AO.heic in Resources */,
+				B3C3030A2ADEF98F00B71318 /* shark_head_AMBIENT.heic in Resources */,
+				B3C302C02ADEF98F00B71318 /* koala_head_SPECROUGHLW.heic in Resources */,
+				B3C302A82ADEF98F00B71318 /* rabbit_head_ONTOP.heic in Resources */,
+				B3C301FF2ADEF98E00B71318 /* giraffe_head_DIFFUSE.heic in Resources */,
+				B3C302242ADEF98F00B71318 /* owl_mouth_DIFFUSE.heic in Resources */,
+				B3C301AC2ADEF98E00B71318 /* skull_jawInsert_SPECROUGHLW.heic in Resources */,
+				B3C302862ADEF98F00B71318 /* dragon_face_AO.heic in Resources */,
+				B3C302842ADEF98F00B71318 /* dragon_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302B72ADEF98F00B71318 /* koala_mouth_AMBIENT.heic in Resources */,
+				B3C302902ADEF98F00B71318 /* dragon_face_SPECROUGHLW.heic in Resources */,
+				B3C302B32ADEF98F00B71318 /* rabbit_head_AMBIENT.heic in Resources */,
+				B3C302132ADEF98F00B71318 /* bear_head_SPECCOLOUR.heic in Resources */,
+				B3C302CA2ADEF98F00B71318 /* octopus_head_AO.heic in Resources */,
+				B3C302292ADEF98F00B71318 /* owl-camera.atx in Resources */,
+				B3C302ED2ADEF98F00B71318 /* cow_mouth_AO.heic in Resources */,
+				B3C301FD2ADEF98E00B71318 /* giraffe_head_ONTOP.heic in Resources */,
+				B3C302582ADEF98F00B71318 /* robot.scnz in Resources */,
+				B3C302232ADEF98F00B71318 /* owl_head_SPECROUGHLW.heic in Resources */,
+				B3C3027F2ADEF98F00B71318 /* dragon_mouth_DIFFUSE.heic in Resources */,
+				B3C302B12ADEF98F00B71318 /* rabbit-cameraGrid.atx in Resources */,
+				B3C302B22ADEF98F00B71318 /* rabbit-camera.atx in Resources */,
+				B3C302652ADEF98F00B71318 /* mouse_head_SPECROUGHLW.heic in Resources */,
+				B3C302722ADEF98F00B71318 /* poo_tongue_DIFFUSE.heic in Resources */,
+				B3C302142ADEF98F00B71318 /* bear_head_SPECROUGHLW.heic in Resources */,
+				B3C302182ADEF98F00B71318 /* panda_head_DIFFUSE.heic in Resources */,
+				B3C3020A2ADEF98F00B71318 /* bear_mouth_AO.heic in Resources */,
+				B3C302772ADEF98F00B71318 /* poo-cameras.scn in Resources */,
+				B3C302F92ADEF98F00B71318 /* lion_hair_SPECROUGHLW.heic in Resources */,
+				B3C301BB2ADEF98E00B71318 /* cat_head_ONTOP.heic in Resources */,
+				B3C301F02ADEF98E00B71318 /* boar_head_AMBIENT.heic in Resources */,
+				B3C301AD2ADEF98E00B71318 /* skull_tongue_SPECROUGHLW.heic in Resources */,
+				B3C302BB2ADEF98F00B71318 /* koala-cameraGrid.atx in Resources */,
+				B3C301C62ADEF98E00B71318 /* trex_head_ONTOP.heic in Resources */,
+				B3C302DB2ADEF98F00B71318 /* unicorn_head_SPECULAR.heic in Resources */,
+				B3C302972ADEF98F00B71318 /* chicken-cameras.scn in Resources */,
+				B3C302F82ADEF98F00B71318 /* lion_head_ONTOP.heic in Resources */,
+				B3C302B62ADEF98F00B71318 /* koala_mouth_DIFFUSE.heic in Resources */,
+				B3C3025F2ADEF98F00B71318 /* ghost_head_ONTOP.heic in Resources */,
+				B3C301DB2ADEF98E00B71318 /* dog_head_SPECROUGHLW.heic in Resources */,
+				B3C301E52ADEF98E00B71318 /* fox_head_DIFFUSE.heic in Resources */,
+				B3C301BA2ADEF98E00B71318 /* cat-cameraGrid.atx in Resources */,
+				B3C301C82ADEF98E00B71318 /* trex_head_AMBIENT.heic in Resources */,
+				B3C302DA2ADEF98F00B71318 /* unicorn_mane_SPECULAR.heic in Resources */,
+				B3C302B82ADEF98F00B71318 /* koala_head_AO.heic in Resources */,
+				B3C302762ADEF98F00B71318 /* poo_body_AO.heic in Resources */,
+				B3C302DC2ADEF98F00B71318 /* unicorn_tongue_SPECROUGHLW.heic in Resources */,
+				B3C3024B2ADEF98F00B71318 /* robot_head_ONTOP.heic in Resources */,
+				B3C301B42ADEF98E00B71318 /* cat.scnz in Resources */,
+				B3C302072ADEF98E00B71318 /* giraffe-camera.atx in Resources */,
 				B325614E2AD2E6A3002733DE /* Assets.xcassets in Resources */,
+				B3C302EA2ADEF98F00B71318 /* cow_head_AMBIENT.heic in Resources */,
+				B3C302FE2ADEF98F00B71318 /* lion_head_SPECROUGHLW.heic in Resources */,
+				B3C301B62ADEF98E00B71318 /* cat_mouth_DIFFUSE.heic in Resources */,
+				B3C3022F2ADEF98F00B71318 /* tiger_head_AMBIENT.heic in Resources */,
+				B3C302BE2ADEF98F00B71318 /* koala_mouth_AO.heic in Resources */,
+				B3C302C52ADEF98F00B71318 /* octopus_head_AMBIENT.heic in Resources */,
+				B3C303012ADEF98F00B71318 /* shark_mouth_SPECROUGHLW.heic in Resources */,
+				B3C3021F2ADEF98F00B71318 /* panda_head_AO.heic in Resources */,
+				B3C301CF2ADEF98E00B71318 /* pig_head_AMBIENT.heic in Resources */,
+				B3C302CF2ADEF98F00B71318 /* environment.scn in Resources */,
+				B3C302102ADEF98F00B71318 /* bear-cameraGrid.atx in Resources */,
+				B3C302512ADEF98F00B71318 /* robot_tongue_DIFFUSE.heic in Resources */,
+				B3C302932ADEF98F00B71318 /* chicken-camera.atx in Resources */,
+				B3C302FD2ADEF98F00B71318 /* lion_hair_AO.heic in Resources */,
+				B3C302D22ADEF98F00B71318 /* unicorn_mane_DIFFUSE.heic in Resources */,
+				B3C302812ADEF98F00B71318 /* dragon_head_ONTOP.heic in Resources */,
+				B3C302CB2ADEF98F00B71318 /* octopus_head_ONTOP.heic in Resources */,
+				B3C302162ADEF98F00B71318 /* panda.scnz in Resources */,
+				B3C301AE2ADEF98E00B71318 /* skull_tongue_TRANSPARENT.heic in Resources */,
+				B3C302672ADEF98F00B71318 /* mouse_mouth_SPECROUGHLW.heic in Resources */,
+				B3C302282ADEF98F00B71318 /* owl_head_AO.heic in Resources */,
+				B3C3025A2ADEF98F00B71318 /* ghost_mouth_AO.heic in Resources */,
+				B3C302492ADEF98F00B71318 /* robot_eyeShadow_RAMP.heic in Resources */,
+				B3C303022ADEF98F00B71318 /* shark-cameras.scn in Resources */,
+				B3C301B92ADEF98E00B71318 /* cat-cameras.scn in Resources */,
+				B3C3029D2ADEF98F00B71318 /* monkey_head_ONTOP.heic in Resources */,
+				B3C302CD2ADEF98F00B71318 /* octopus-cameras.scn in Resources */,
+				B3C302832ADEF98F00B71318 /* dragon_mouth_AO.heic in Resources */,
+				B3C303002ADEF98F00B71318 /* shark_head_AO.heic in Resources */,
+				B3C302B92ADEF98F00B71318 /* koala.scnz in Resources */,
+				B3C302A32ADEF98F00B71318 /* monkey_head_SPECROUGHLW.heic in Resources */,
+				B3C302A72ADEF98F00B71318 /* monkey.scnz in Resources */,
+				B3C3028A2ADEF98F00B71318 /* dragon-camera.atx in Resources */,
+				B3C301F62ADEF98E00B71318 /* boar_mouth_AMBIENT.heic in Resources */,
+				B3C301D02ADEF98E00B71318 /* pig_head_DIFFUSE.heic in Resources */,
+				B3C302C72ADEF98F00B71318 /* octopus-cameraGrid.atx in Resources */,
+				B3C302AA2ADEF98F00B71318 /* rabbit_head_AO.heic in Resources */,
+				B3C3027D2ADEF98F00B71318 /* poo-cameraGrid.atx in Resources */,
+				B3C3029F2ADEF98F00B71318 /* monkey_mouth_DIFFUSE.heic in Resources */,
+				B3C301D22ADEF98E00B71318 /* pig-cameraGrid.atx in Resources */,
+				B3C301CA2ADEF98E00B71318 /* trex_head_SPECROUGHLW.heic in Resources */,
+				B3C3029A2ADEF98F00B71318 /* chicken_tongue_AO.heic in Resources */,
+				B3C301EA2ADEF98E00B71318 /* fox_head_AO.heic in Resources */,
+				B3C3024A2ADEF98F00B71318 /* robot-cameraGrid.atx in Resources */,
+				B3C302112ADEF98F00B71318 /* bear_head_ONTOP.heic in Resources */,
+				B3C301DC2ADEF98E00B71318 /* dog_mouth_DIFFUSE.heic in Resources */,
+				B3C302E52ADEF98F00B71318 /* cow_head_ONTOP.heic in Resources */,
+				B3C303092ADEF98F00B71318 /* shark-camera.atx in Resources */,
+				B3C3021B2ADEF98F00B71318 /* panda_mouth_AO.heic in Resources */,
+				B3C301E12ADEF98E00B71318 /* dog-camera.atx in Resources */,
+				B3C301FE2ADEF98E00B71318 /* giraffe_head_AMBIENT.heic in Resources */,
+				B3C3027B2ADEF98F00B71318 /* poo.scnz in Resources */,
+				B3C3024C2ADEF98F00B71318 /* robot_noseShadow_RAMP.heic in Resources */,
+				B3C301C42ADEF98E00B71318 /* trex-cameraGrid.atx in Resources */,
+				B3C302442ADEF98F00B71318 /* alien-cameras.scn in Resources */,
+				B3C302C22ADEF98F00B71318 /* octopus_mouth_DIFFUSE.heic in Resources */,
+				B3C301B72ADEF98E00B71318 /* cat_head_SPECROUGHLW.heic in Resources */,
+				B3C302212ADEF98F00B71318 /* owl_head_DIFFUSE.heic in Resources */,
+				B3C302E22ADEF98F00B71318 /* unicorn_horn_SPECULAR.heic in Resources */,
+				B3C302502ADEF98F00B71318 /* robot_tongue_REFLECTION.heic in Resources */,
+				B3C303062ADEF98F00B71318 /* shark.scnz in Resources */,
+				B3C302C42ADEF98F00B71318 /* octopus_head_DIFFUSE.heic in Resources */,
+				B3C302D12ADEF98F00B71318 /* unicorn_head_AO.heic in Resources */,
+				B3C302C32ADEF98F00B71318 /* octopus.scnz in Resources */,
+				B3C301F22ADEF98E00B71318 /* boar_head_AO.heic in Resources */,
+				B3C302EE2ADEF98F00B71318 /* cow_mouth_SPECROUGHLW.heic in Resources */,
+				B3C3029B2ADEF98F00B71318 /* chicken_head_SPECROUGHLW.heic in Resources */,
+				B3C301E82ADEF98E00B71318 /* fox.scnz in Resources */,
+				B3C302EF2ADEF98F00B71318 /* cow_head_SPECROUGHLW.heic in Resources */,
+				B3C301A72ADEF98E00B71318 /* skull-cameraGrid.atx in Resources */,
+				B3C302D92ADEF98F00B71318 /* unicorn_mane_AO.heic in Resources */,
+				B3C302E02ADEF98F00B71318 /* unicorn-cameraGrid.atx in Resources */,
+				B3C302322ADEF98F00B71318 /* tiger_head_AO.heic in Resources */,
+				B3C3022A2ADEF98F00B71318 /* owl_eyes_DIFFUSE.heic in Resources */,
+				B3C302592ADEF98F00B71318 /* robot-cameras.scn in Resources */,
+				B3C302472ADEF98F00B71318 /* alien-cameraGrid.atx in Resources */,
+				B3C302432ADEF98F00B71318 /* alien_head_AO.heic in Resources */,
+				B3C301AA2ADEF98E00B71318 /* skull-camera.atx in Resources */,
+				B3C301C12ADEF98E00B71318 /* trex_tongue_SPECROUGHLW.heic in Resources */,
+				B3C301F12ADEF98E00B71318 /* boar_head_DIFFUSE.heic in Resources */,
+				B3C3025D2ADEF98F00B71318 /* ghost_mouth_DIFFUSE.heic in Resources */,
+				B3C302D02ADEF98F00B71318 /* unicorn_head_DIFFUSE.heic in Resources */,
+				B3C302942ADEF98F00B71318 /* chicken_head_AO.heic in Resources */,
+				B3C3020E2ADEF98F00B71318 /* bear.scnz in Resources */,
+				B3C302F12ADEF98F00B71318 /* lion-camera.atx in Resources */,
+				B3C3022D2ADEF98F00B71318 /* owl_mouth_SPECROUGHLW.heic in Resources */,
+				B3C3029E2ADEF98F00B71318 /* monkey-cameraGrid.atx in Resources */,
+				B3C3022C2ADEF98F00B71318 /* owl.scnz in Resources */,
+				B3C302632ADEF98F00B71318 /* ghost_mouth_SPECULAR.heic in Resources */,
+				B3C302C82ADEF98F00B71318 /* octopus-camera.atx in Resources */,
+				B3C301AB2ADEF98E00B71318 /* skull_jawInsert_DIFFUSE.heic in Resources */,
+				B3C302A12ADEF98F00B71318 /* monkey_head_AO.heic in Resources */,
+				B3C302BA2ADEF98F00B71318 /* koala-camera.atx in Resources */,
+				B3C302312ADEF98F00B71318 /* tiger_head_SPECROUGHLW.heic in Resources */,
+				B3C302962ADEF98F00B71318 /* chicken_tongue_DIFFUSE.heic in Resources */,
+				B3C301F92ADEF98E00B71318 /* boar_mouth_AO.heic in Resources */,
+				B3C302412ADEF98F00B71318 /* alien.scnz in Resources */,
+				B3C302D42ADEF98F00B71318 /* unicorn_mouth_DIFFUSE.heic in Resources */,
+				B3C301D82ADEF98E00B71318 /* pig_head_SPECROUGHLW.heic in Resources */,
+				B3C302452ADEF98F00B71318 /* alien_head_DIFFUSE.heic in Resources */,
+				B3C303072ADEF98F00B71318 /* shark_mouth_DIFFUSE.heic in Resources */,
+				B3C301AF2ADEF98E00B71318 /* skull_head_AO.heic in Resources */,
+				B3C302A62ADEF98F00B71318 /* monkey_head_AMBIENT.heic in Resources */,
+				B3C302662ADEF98F00B71318 /* mouse_whiskers_MASK.heic in Resources */,
+				B3C302CC2ADEF98F00B71318 /* octopus_head_SPECROUGHLW.heic in Resources */,
+				B3C301D12ADEF98E00B71318 /* pig.scnz in Resources */,
+				B3C3024E2ADEF98F00B71318 /* robot-camera.atx in Resources */,
+				B3C3023D2ADEF98F00B71318 /* tongue_SPECROUGHLW.heic in Resources */,
+				B3C302082ADEF98E00B71318 /* giraffe_mouth_DIFFUSE.heic in Resources */,
+				B3C301CE2ADEF98E00B71318 /* pig_mouth_AO.heic in Resources */,
+				B3C302D62ADEF98F00B71318 /* unicorn_mane_AMBIENT.heic in Resources */,
+				B3C3026B2ADEF98F00B71318 /* mouse_mouth_DIFFUSE.heic in Resources */,
+				B3C302AB2ADEF98F00B71318 /* rabbit_mouth_DIFFUSE.heic in Resources */,
+				B3C302A42ADEF98F00B71318 /* monkey_head_DIFFUSE.heic in Resources */,
+				B3C302372ADEF98F00B71318 /* tiger-camera.atx in Resources */,
+				B3C302042ADEF98E00B71318 /* giraffe_head_AO.heic in Resources */,
+				B3C3020D2ADEF98F00B71318 /* bear_head_DIFFUSE.heic in Resources */,
+				B3C302F62ADEF98F00B71318 /* lion-cameras.scn in Resources */,
+				B3C301CB2ADEF98E00B71318 /* trex-cameras.scn in Resources */,
+				B3C302C62ADEF98F00B71318 /* octopus_head_REFLECTIVE.heic in Resources */,
+				B3C302EC2ADEF98F00B71318 /* cow_head_DIFFUSE.heic in Resources */,
+				B3C302992ADEF98F00B71318 /* chicken-cameraGrid.atx in Resources */,
+				B3C302642ADEF98F00B71318 /* ghost_head_SPECROUGHLW.heic in Resources */,
+				B3C302002ADEF98E00B71318 /* giraffe-cameraGrid.atx in Resources */,
+				B3C302A02ADEF98F00B71318 /* monkey-camera.atx in Resources */,
+				B3C301BE2ADEF98E00B71318 /* cat_head_AO.heic in Resources */,
+				B3C301EB2ADEF98E00B71318 /* fox_mouth_AO.heic in Resources */,
+				B3C3027E2ADEF98F00B71318 /* poo_body_ONTOP.heic in Resources */,
+				B3C301ED2ADEF98E00B71318 /* fox_mouth_DIFFUSE.heic in Resources */,
+				B3C302152ADEF98F00B71318 /* panda-camera.atx in Resources */,
+				B3C301A82ADEF98E00B71318 /* skull-cameras.scn in Resources */,
+				B3C3023C2ADEF98F00B71318 /* eye_uvs_REFLECTIVE_occlusion.heic in Resources */,
+				B3C303082ADEF98F00B71318 /* shark_head_DIFFUSE.heic in Resources */,
+				B3C301EC2ADEF98E00B71318 /* fox_head_SPECROUGHLW.heic in Resources */,
+				B3C302F02ADEF98F00B71318 /* lion_hair_ONTOP.heic in Resources */,
+				B3C301E22ADEF98E00B71318 /* dog_head_AO.heic in Resources */,
+				B3C302F52ADEF98F00B71318 /* lion_hair_AMBIENT.heic in Resources */,
+				B3C3020C2ADEF98F00B71318 /* bear_head_AMBIENT.heic in Resources */,
+				B3C302952ADEF98F00B71318 /* chicken_head_AMBIENT.heic in Resources */,
+				B3C302252ADEF98F00B71318 /* owl-cameras.scn in Resources */,
+				B3C301D62ADEF98E00B71318 /* pig-cameras.scn in Resources */,
+				B3C302682ADEF98F00B71318 /* mouse-cameraGrid.atx in Resources */,
+				B3C302802ADEF98F00B71318 /* dragon_eye_REFLECTIVE_front.heic in Resources */,
+				B3C302062ADEF98E00B71318 /* giraffe.scnz in Resources */,
+				B3C302FC2ADEF98F00B71318 /* lion_mouth_AO.heic in Resources */,
+				B3C301C22ADEF98E00B71318 /* trex_head_AO.heic in Resources */,
+				B3C301DA2ADEF98E00B71318 /* dog_head_AMBIENT.heic in Resources */,
+				B3C3028D2ADEF98F00B71318 /* dragon_head_DIFFUSE.heic in Resources */,
+				B3C302892ADEF98F00B71318 /* dragon_head_AO.heic in Resources */,
+				B3C303052ADEF98F00B71318 /* shark_head_ONTOP.heic in Resources */,
+				B3C3025B2ADEF98F00B71318 /* ghost-cameraGrid.atx in Resources */,
+				B3C302E92ADEF98F00B71318 /* cow-cameras.scn in Resources */,
+				B3C302732ADEF98F00B71318 /* poo_tongue_SPECROUGHLW.heic in Resources */,
+				B3C3026F2ADEF98F00B71318 /* mouse_head_ONTOP.heic in Resources */,
+				B3C302032ADEF98E00B71318 /* giraffe_head_SPECROUGHLW.heic in Resources */,
+				B3C302362ADEF98F00B71318 /* tiger_mouth_DIFFUSE.heic in Resources */,
+				B3C3026C2ADEF98F00B71318 /* mouse.scnz in Resources */,
+				B3C302622ADEF98F00B71318 /* ghost.scnz in Resources */,
+				B3C302332ADEF98F00B71318 /* tiger.scnz in Resources */,
+				B3C301DD2ADEF98E00B71318 /* dog_head_DIFFUSE.heic in Resources */,
+				B3C302AC2ADEF98F00B71318 /* rabbit.scnz in Resources */,
+				B3C3023E2ADEF98F00B71318 /* eye_uvs_REFLECTIVE_front.heic in Resources */,
+				B3C302B02ADEF98F00B71318 /* rabbit-cameras.scn in Resources */,
+				B3C301C32ADEF98E00B71318 /* trex_mouth_DIFFUSE.heic in Resources */,
+				B3C301E42ADEF98E00B71318 /* dog-cameraGrid.atx in Resources */,
+				B3C302202ADEF98F00B71318 /* panda_head_ONTOP.heic in Resources */,
+				B3C302692ADEF98F00B71318 /* mouse_mouth_AO.heic in Resources */,
+				B3C302BC2ADEF98F00B71318 /* koala_head_ONTOP.heic in Resources */,
+				B3C302872ADEF98F00B71318 /* dragon_face_DIFFUSE.heic in Resources */,
+				B3C302382ADEF98F00B71318 /* tiger_mouth_AO.heic in Resources */,
+				B3C302012ADEF98E00B71318 /* giraffe_mouth_AO.heic in Resources */,
+				B3C302822ADEF98F00B71318 /* dragon_head_SPECROUGHLW.heic in Resources */,
+				B3C302EB2ADEF98F00B71318 /* cow-cameraGrid.atx in Resources */,
+				B3C302612ADEF98F00B71318 /* ghost_head_DIFFUSE.heic in Resources */,
+				B3C301CC2ADEF98E00B71318 /* trex_head_DIFFUSE.heic in Resources */,
+				B3C301C02ADEF98E00B71318 /* trex.scnz in Resources */,
+				B3C302092ADEF98E00B71318 /* bear-cameras.scn in Resources */,
+				B3C302792ADEF98F00B71318 /* poo_eye_DIFFUSE.heic in Resources */,
+				B3C302B42ADEF98F00B71318 /* rabbit_mouth_AO.heic in Resources */,
+				B3C3028C2ADEF98F00B71318 /* dragon_eye_REFLECTIVE_back.heic in Resources */,
+				B3C302882ADEF98F00B71318 /* dragon.scnz in Resources */,
+				B3C301F42ADEF98E00B71318 /* boar-cameras.scn in Resources */,
+				B3C3024F2ADEF98F00B71318 /* robot_head_AMBIENT.heic in Resources */,
+				B3C301A52ADEF98E00B71318 /* skull_head_SPECROUGHLW.heic in Resources */,
+				B3C301DF2ADEF98E00B71318 /* dog_tongue_SPECROUGHLW.heic in Resources */,
+				B3C301E32ADEF98E00B71318 /* dog_tongue_AO.heic in Resources */,
+				B3C302A22ADEF98F00B71318 /* monkey_mouth_AO.heic in Resources */,
+				B3C3021E2ADEF98F00B71318 /* panda-cameraGrid.atx in Resources */,
+				B3C302922ADEF98F00B71318 /* chicken_head_DIFFUSE.heic in Resources */,
+				B3C301FB2ADEF98E00B71318 /* boar-camera.atx in Resources */,
+				B3C302D82ADEF98F00B71318 /* unicorn_horn_AO.heic in Resources */,
+				B3C301C72ADEF98E00B71318 /* trex_head_REFLECTIVE.heic in Resources */,
+				B3C3023F2ADEF98F00B71318 /* black.heic in Resources */,
+				B3C302D72ADEF98F00B71318 /* unicorn_mouth_AO.heic in Resources */,
+				B3C302E72ADEF98F00B71318 /* cow-camera.atx in Resources */,
+				B3C301F72ADEF98E00B71318 /* boar_mouth_DIFFUSE.heic in Resources */,
+				B3C302DF2ADEF98F00B71318 /* unicorn-cameras.scn in Resources */,
+				B3C3028E2ADEF98F00B71318 /* dragon-cameras.scn in Resources */,
+				B3C302AD2ADEF98F00B71318 /* rabbit_tongue_SPECROUGHLW.heic in Resources */,
+				B3C301CD2ADEF98E00B71318 /* pig_mouth_DIFFUSE.heic in Resources */,
+				B3C301D92ADEF98E00B71318 /* dog-cameras.scn in Resources */,
+				B3C3021A2ADEF98F00B71318 /* panda_head_AMBIENT.heic in Resources */,
+				B3C302482ADEF98F00B71318 /* alien_head_ONTOP.heic in Resources */,
+				B3C301B52ADEF98E00B71318 /* cat-camera.atx in Resources */,
+				B3C301E72ADEF98E00B71318 /* fox_head_AMBIENT.heic in Resources */,
+				B3C301F52ADEF98E00B71318 /* boar_head_SPECROUGHLW.heic in Resources */,
+				B3C301A62ADEF98E00B71318 /* skull_nose_SPECROUGHLW.heic in Resources */,
+				B3C302F32ADEF98F00B71318 /* lion_mouth_DIFFUSE.heic in Resources */,
+				B3C301E62ADEF98E00B71318 /* fox_head_ONTOP.heic in Resources */,
+				B3C302222ADEF98F00B71318 /* owl_head_AMBIENT.heic in Resources */,
+				B3C302532ADEF98F00B71318 /* robot_head_RAMP.heic in Resources */,
+				B3C3026D2ADEF98F00B71318 /* mouse_head_AO.heic in Resources */,
+				B3C302352ADEF98F00B71318 /* tiger-cameraGrid.atx in Resources */,
+				B3C3021D2ADEF98F00B71318 /* panda_mouth_DIFFUSE.heic in Resources */,
+				B3C302522ADEF98F00B71318 /* robot_head_AO.heic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +1816,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C3030F2ADEFE6300B71318 /* BottomNavBar.swift in Sources */,
+				B3C3030D2ADEFB9400B71318 /* Avatar3DView.swift in Sources */,
 				B325614C2AD2E6A2002733DE /* ContentView.swift in Sources */,
 				B325614A2AD2E6A2002733DE /* Neros_MusicApp.swift in Sources */,
 			);

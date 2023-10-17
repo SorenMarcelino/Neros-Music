@@ -6,30 +6,19 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
-    @State private var isShowingSecondView = false
+    @State var scene: SCNScene? = .init(named: "alien.scnz")
     
     var body: some View {
-        TabView {
-            Text("Content of the first view")
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                }
-            
-            Text("The content of the second view")
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Search")
-                }
-            
-            Text("The content of the third view")
-                .tabItem {
-                    Image(systemName: "square.stack.fill")
-                    Text("Library")
-                }
+        VStack {
+            Avatar3DView(scene: $scene)
+                .frame(height: 350)
+            BottomNavigationBar()
         }
+        
+        
     }
 }
 
