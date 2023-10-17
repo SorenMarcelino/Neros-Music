@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingSecondView = false
+    
     var body: some View {
         TabView {
             Text("Content of the first view")
