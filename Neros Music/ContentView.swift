@@ -9,16 +9,14 @@ import SwiftUI
 import SceneKit
 
 struct ContentView: View {
-    @State var scene: SCNScene? = .init(named: "alien.scnz")
+    @State var scene: SCNScene? = .init(named: "alien.scn")
     
     var body: some View {
         VStack {
-            Avatar3DView(scene: $scene)
-                .frame(height: 350)
+            //Avatar3DView(scene: $scene)
+                //.frame(height: 350)
             BottomNavigationBar()
         }
-        
-        
     }
 }
 
